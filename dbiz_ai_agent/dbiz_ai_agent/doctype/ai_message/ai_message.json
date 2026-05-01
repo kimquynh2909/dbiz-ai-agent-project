@@ -1,0 +1,101 @@
+{
+  "actions": [],
+  "creation": "2024-01-01 10:00:00.000000",
+  "doctype": "DocType",
+  "editable_grid": 1,
+  "engine": "InnoDB",
+  "field_order": [
+    "role",
+    "content",
+    "timestamp",
+    "column_break_1",
+    "tokens_used",
+    "feedback",
+    "sources",
+    "images",
+    "section_break_streaming",
+    "is_streaming",
+    "stream_key"
+  ],
+  "fields": [
+    {
+      "fieldname": "role",
+      "fieldtype": "Select",
+      "in_list_view": 1,
+      "label": "Role",
+      "options": "user\nassistant\nsystem\nerror",
+      "reqd": 1
+    },
+    {
+      "fieldname": "content",
+      "fieldtype": "Long Text",
+      "in_list_view": 1,
+      "label": "Content",
+      "reqd": 0
+    },
+    {
+      "fieldname": "timestamp",
+      "fieldtype": "Datetime",
+      "label": "Timestamp",
+      "reqd": 1
+    },
+    {
+      "fieldname": "column_break_1",
+      "fieldtype": "Column Break"
+    },
+    {
+      "fieldname": "tokens_used",
+      "fieldtype": "Int",
+      "label": "Tokens Used",
+      "default": "0"
+    },
+    {
+      "fieldname": "feedback",
+      "fieldtype": "Select",
+      "label": "Feedback",
+      "options": "\nHelpful\nNot Helpful"
+    },
+    {
+      "fieldname": "sources",
+      "fieldtype": "JSON",
+      "label": "Sources",
+      "hidden": 1
+    },
+    {
+      "fieldname": "images",
+      "fieldtype": "JSON",
+      "label": "Images"
+    },
+    {
+      "fieldname": "section_break_streaming",
+      "fieldtype": "Section Break",
+      "label": "Streaming Status",
+      "hidden": 1
+    },
+    {
+      "fieldname": "is_streaming",
+      "fieldtype": "Check",
+      "label": "Is Streaming",
+      "default": "0",
+      "hidden": 1
+    },
+    {
+      "fieldname": "stream_key",
+      "fieldtype": "Data",
+      "label": "Stream Key",
+      "hidden": 1
+    }
+  ],
+  "index_web_pages_for_search": 1,
+  "istable": 1,
+  "links": [],
+  "modified": "2024-01-01 10:00:00.000000",
+  "modified_by": "Administrator",
+  "module": "dbiz_ai_agent",
+  "name": "AI Message",
+  "owner": "Administrator",
+  "permissions": [],
+  "sort_field": "modified",
+  "sort_order": "DESC",
+  "track_changes": 1
+}

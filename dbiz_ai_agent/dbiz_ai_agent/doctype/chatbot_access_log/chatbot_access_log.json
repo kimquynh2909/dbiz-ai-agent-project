@@ -1,0 +1,223 @@
+{
+  "actions": [],
+  "autoname": "format:LOG-{#####}",
+  "creation": "2024-09-26 12:00:00.000000",
+  "default_view": "List",
+  "doctype": "DocType",
+  "editable_grid": 1,
+  "engine": "InnoDB",
+  "field_order": [
+    "access_info_section",
+    "user",
+    "timestamp",
+    "message_id",
+    "conversation_id",
+    "ip_address",
+    "column_break_4",
+    "session_id",
+    "user_agent",
+    "query_info_section",
+    "query_text",
+    "query_type",
+    "agent_name",
+    "column_break_9",
+    "response_time_ms",
+    "results_count",
+    "results_section",
+    "accessed_documents",
+    "vector_collections_used",
+    "column_break_14",
+    "permissions_applied",
+    "sensitive_data_masked",
+    "security_section",
+    "rate_limit_hit",
+    "security_flags",
+    "column_break_19",
+    "blocked_reason",
+    "admin_notified"
+  ],
+  "fields": [
+    {
+      "fieldname": "access_info_section",
+      "fieldtype": "Section Break",
+      "label": "Access Information"
+    },
+    {
+      "fieldname": "user",
+      "fieldtype": "Link",
+      "in_list_view": 1,
+      "label": "User",
+      "options": "User",
+      "reqd": 1
+    },
+    {
+      "default": "now",
+      "fieldname": "timestamp",
+      "fieldtype": "Datetime",
+      "in_list_view": 1,
+      "label": "Timestamp",
+      "reqd": 1
+    },
+    {
+      "fieldname": "message_id",
+      "fieldtype": "Data",
+      "in_list_view": 1,
+      "label": "Message ID"
+    },
+    {
+      "fieldname": "conversation_id",
+      "fieldtype": "Link",
+      "label": "Conversation",
+      "options": "AI Conversation"
+    },
+    {
+      "fieldname": "ip_address",
+      "fieldtype": "Data",
+      "label": "IP Address"
+    },
+    {
+      "fieldname": "column_break_4",
+      "fieldtype": "Column Break"
+    },
+    {
+      "fieldname": "session_id",
+      "fieldtype": "Data",
+      "label": "Session ID"
+    },
+    {
+      "fieldname": "user_agent",
+      "fieldtype": "Small Text",
+      "label": "User Agent"
+    },
+    {
+      "fieldname": "query_info_section",
+      "fieldtype": "Section Break",
+      "label": "Query Information"
+    },
+    {
+      "fieldname": "query_text",
+      "fieldtype": "Text",
+      "in_list_view": 1,
+      "label": "Query Text",
+      "reqd": 1
+    },
+    {
+      "fieldname": "query_type",
+      "fieldtype": "Select",
+      "in_list_view": 1,
+      "label": "Query Type",
+      "options": "Document Search\nData Query\nGeneral Chat\nSystem Command\nChat with Images"
+    },
+    {
+      "fieldname": "agent_name",
+      "fieldtype": "Data",
+      "label": "Agent Name"
+    },
+    {
+      "fieldname": "column_break_9",
+      "fieldtype": "Column Break"
+    },
+    {
+      "fieldname": "response_time_ms",
+      "fieldtype": "Int",
+      "label": "Response Time (ms)"
+    },
+    {
+      "fieldname": "results_count",
+      "fieldtype": "Int",
+      "label": "Results Count"
+    },
+    {
+      "fieldname": "results_section",
+      "fieldtype": "Section Break",
+      "label": "Results & Access"
+    },
+    {
+      "fieldname": "accessed_documents",
+      "fieldtype": "JSON",
+      "label": "Accessed Documents (JSON)"
+    },
+    {
+      "fieldname": "vector_collections_used",
+      "fieldtype": "Small Text",
+      "label": "Vector Collections Used"
+    },
+    {
+      "fieldname": "column_break_14",
+      "fieldtype": "Column Break"
+    },
+    {
+      "fieldname": "permissions_applied",
+      "fieldtype": "JSON",
+      "label": "Permissions Applied (JSON)"
+    },
+    {
+      "default": "0",
+      "fieldname": "sensitive_data_masked",
+      "fieldtype": "Check",
+      "label": "Sensitive Data Masked"
+    },
+    {
+      "fieldname": "security_section",
+      "fieldtype": "Section Break",
+      "label": "Security & Compliance"
+    },
+    {
+      "default": "0",
+      "fieldname": "rate_limit_hit",
+      "fieldtype": "Check",
+      "label": "Rate Limit Hit"
+    },
+    {
+      "fieldname": "security_flags",
+      "fieldtype": "Small Text",
+      "label": "Security Flags"
+    },
+    {
+      "fieldname": "column_break_19",
+      "fieldtype": "Column Break"
+    },
+    {
+      "fieldname": "blocked_reason",
+      "fieldtype": "Data",
+      "label": "Blocked Reason"
+    },
+    {
+      "default": "0",
+      "fieldname": "admin_notified",
+      "fieldtype": "Check",
+      "label": "Admin Notified"
+    }
+  ],
+  "index_web_pages_for_search": 1,
+  "links": [],
+  "modified": "2024-09-26 12:00:00.000000",
+  "modified_by": "Administrator",
+  "module": "dbiz_ai_agent",
+  "name": "Chatbot Access Log",
+  "naming_rule": "Expression",
+  "owner": "Administrator",
+  "permissions": [
+    {
+      "create": 1,
+      "delete": 1,
+      "email": 1,
+      "export": 1,
+      "print": 1,
+      "read": 1,
+      "report": 1,
+      "role": "System Manager",
+      "share": 1,
+      "write": 1
+    },
+    {
+      "read": 1,
+      "report": 1,
+      "role": "Administrator"
+    }
+  ],
+  "sort_field": "timestamp",
+  "sort_order": "DESC",
+  "states": [],
+  "track_changes": 1
+}

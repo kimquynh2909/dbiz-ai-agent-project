@@ -1,0 +1,287 @@
+{
+  "actions": [],
+  "allow_rename": 1,
+  "autoname": "format:DOC-{####}",
+  "creation": "2024-01-01 10:00:00.000000",
+  "doctype": "DocType",
+  "editable_grid": 1,
+  "engine": "InnoDB",
+  "field_order": [
+    "title",
+    "file_attachment",
+    "source_url",
+    "category",
+    "column_break_1",
+    "status",
+    "file_size",
+    "file_type",
+    "folder_id",
+    "section_break_1",
+    "description",
+    "tags",
+    "section_break_permission",
+    "access_level",
+    "vector_collection",
+    "column_break_permission",
+    "roles_allowed",
+    "departments_allowed",
+    "section_break_2",
+    "content",
+    "embeddings",
+    "chunk_ids",
+    "section_break_3",
+    "uploaded_by",
+    "upload_date",
+    "column_break_2",
+    "processed_date",
+    "chunks_count",
+    "column_break_3",
+    "last_accessed",
+    "access_count",
+    "error_message"
+  ],
+  "fields": [
+    {
+      "fieldname": "title",
+      "fieldtype": "Data",
+      "in_list_view": 1,
+      "label": "Title",
+      "reqd": 1
+    },
+    {
+      "fieldname": "file_attachment",
+      "fieldtype": "Attach",
+      "label": "File Attachment"
+    },
+    {
+      "fieldname": "source_url",
+      "fieldtype": "Data",
+      "label": "Source URL",
+      "description": "Original URL if imported from web"
+    },
+    {
+      "fieldname": "category",
+      "fieldtype": "Select",
+      "label": "Category",
+      "options": "FAQ\nGuide\nPolicy\nTechnical\nSoftware\nHardware\nOther",
+      "reqd": 1
+    },
+    {
+      "fieldname": "column_break_1",
+      "fieldtype": "Column Break"
+    },
+    {
+      "fieldname": "status",
+      "fieldtype": "Select",
+      "in_list_view": 1,
+      "label": "Status",
+      "options": "Pending\nProcessing\nProcessed\nError",
+      "default": "Pending"
+    },
+    {
+      "fieldname": "file_size",
+      "fieldtype": "Data",
+      "label": "File Size",
+      "read_only": 1
+    },
+    {
+      "fieldname": "file_type",
+      "fieldtype": "Data",
+      "label": "File Type",
+      "read_only": 1
+    },
+    {
+      "fieldname": "folder_id",
+      "fieldtype": "Link",
+      "label": "Folder",
+      "options": "AI Folder"
+    },
+    {
+      "fieldname": "section_break_1",
+      "fieldtype": "Section Break"
+    },
+    {
+      "fieldname": "description",
+      "fieldtype": "Text",
+      "label": "Description"
+    },
+    {
+      "fieldname": "tags",
+      "fieldtype": "Data",
+      "label": "Tags"
+    },
+    {
+      "fieldname": "section_break_2",
+      "fieldtype": "Section Break",
+      "label": "Processing Details"
+    },
+    {
+      "fieldname": "content",
+      "fieldtype": "Long Text",
+      "label": "Extracted Content",
+      "read_only": 1
+    },
+    {
+      "fieldname": "embeddings",
+      "fieldtype": "JSON",
+      "label": "Embeddings",
+      "read_only": 1,
+      "hidden": 1
+    },
+    {
+      "fieldname": "chunk_ids",
+      "fieldtype": "JSON",
+      "label": "Chunk IDs",
+      "read_only": 1,
+      "hidden": 1
+    },
+    {
+      "fieldname": "section_break_3",
+      "fieldtype": "Section Break",
+      "label": "Metadata"
+    },
+    {
+      "fieldname": "uploaded_by",
+      "fieldtype": "Link",
+      "label": "Uploaded By",
+      "options": "User",
+      "read_only": 1
+    },
+    {
+      "fieldname": "upload_date",
+      "fieldtype": "Datetime",
+      "label": "Upload Date",
+      "read_only": 1
+    },
+    {
+      "fieldname": "column_break_2",
+      "fieldtype": "Column Break"
+    },
+    {
+      "fieldname": "processed_date",
+      "fieldtype": "Datetime",
+      "label": "Processed Date",
+      "read_only": 1
+    },
+    {
+      "fieldname": "chunks_count",
+      "fieldtype": "Int",
+      "label": "Chunks Count",
+      "read_only": 1,
+      "default": 0
+    },
+    {
+      "default": "0",
+      "fieldname": "images_extracted",
+      "fieldtype": "Int",
+      "label": "Images Extracted",
+      "read_only": 1
+    },
+    {
+      "fieldname": "section_break_permission",
+      "fieldtype": "Section Break",
+      "label": "Access Control & Permissions"
+    },
+    {
+      "fieldname": "access_level",
+      "fieldtype": "Select",
+      "in_list_view": 1,
+      "label": "Access Level",
+      "options": "Public\nInternal",
+      "default": "Internal",
+      "description": "Public: Mọi người | Internal: Chỉ người đã đăng nhập"
+    },
+    {
+      "fieldname": "vector_collection",
+      "fieldtype": "Data",
+      "label": "Vector Collection Name",
+      "read_only": 1
+    },
+    {
+      "fieldname": "column_break_permission",
+      "fieldtype": "Column Break"
+    },
+    {
+      "fieldname": "roles_allowed",
+      "fieldtype": "Table",
+      "label": "Roles Allowed",
+      "options": "AI Role Child"
+    },
+    {
+      "fieldname": "departments_allowed",
+      "fieldtype": "Small Text",
+      "label": "Departments Allowed (comma separated)",
+      "description": "Các department được phép truy cập (IT, HR, SALE, MARKETING). Nhập nhiều giá trị cách nhau bởi dấu phẩy. VD: IT, HR"
+    },
+    {
+      "fieldname": "column_break_3",
+      "fieldtype": "Column Break"
+    },
+    {
+      "fieldname": "last_accessed",
+      "fieldtype": "Datetime",
+      "label": "Last Accessed",
+      "read_only": 1
+    },
+    {
+      "default": "0",
+      "fieldname": "access_count",
+      "fieldtype": "Int",
+      "label": "Access Count",
+      "read_only": 1
+    },
+    {
+      "fieldname": "error_message",
+      "fieldtype": "Text",
+      "label": "Error Message",
+      "read_only": 1
+    }
+  ],
+  "index_web_pages_for_search": 1,
+  "links": [],
+  "modified": "2024-01-01 10:00:00.000000",
+  "modified_by": "Administrator",
+  "module": "dbiz_ai_agent",
+  "name": "AI Document",
+  "owner": "Administrator",
+  "permissions": [
+    {
+      "create": 1,
+      "delete": 1,
+      "email": 1,
+      "export": 1,
+      "print": 1,
+      "read": 1,
+      "report": 1,
+      "role": "System Manager",
+      "share": 1,
+      "write": 1
+    },
+    {
+      "create": 1,
+      "delete": 1,
+      "email": 1,
+      "export": 1,
+      "print": 1,
+      "read": 1,
+      "report": 1,
+      "role": "AI Agent Admin",
+      "share": 1,
+      "write": 1
+    },
+    {
+      "create": 1,
+      "email": 1,
+      "export": 1,
+      "print": 1,
+      "read": 1,
+      "report": 1,
+      "role": "AI Agent User",
+      "share": 1,
+      "write": 1
+    }
+  ],
+  "sort_field": "modified",
+  "sort_order": "DESC",
+  "track_changes": 1
+}

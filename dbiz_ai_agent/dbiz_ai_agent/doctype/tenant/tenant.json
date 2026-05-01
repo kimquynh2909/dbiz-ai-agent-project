@@ -1,0 +1,36 @@
+{
+ "doctype": "DocType",
+ "name": "Tenant",
+ "module": "dbiz_ai_agent",
+ "custom": 1,
+ "is_child_table": 0,
+ "fields": [
+  {
+   "fieldname": "tenant_name",
+   "fieldtype": "Data",
+   "label": "Tenant Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Text",
+   "label": "Description",
+   "reqd": 0
+  }
+ ],
+ "permissions": [
+  {
+   "role": "System Manager",
+   "read": 1,
+   "write": 1,
+   "create": 1,
+   "delete": 1,
+   "export": 1,
+   "print": 1,
+   "email": 1
+  }
+ ],
+ "title_field": "tenant_name",
+ "autoname": "field:tenant_name"
+}
+

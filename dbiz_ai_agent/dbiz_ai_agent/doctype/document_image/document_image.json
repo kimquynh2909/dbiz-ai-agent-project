@@ -1,0 +1,234 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:IMG-{#####}",
+ "creation": "2024-09-26 14:00:00.000000",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "image_info_section",
+  "title",
+  "description",
+  "image_file",
+  "column_break_4",
+  "image_type",
+  "file_size",
+  "dimensions",
+  "document_info_section",
+  "parent_document",
+  "page_number",
+  "position_in_document",
+  "column_break_9",
+  "extracted_text",
+  "alt_text",
+  "context_section",
+  "surrounding_text",
+  "image_context",
+  "column_break_13",
+  "tags",
+  "category",
+  "metadata_section",
+  "extracted_date",
+  "extraction_method",
+  "column_break_17",
+  "confidence_score",
+  "processing_status"
+ ],
+ "fields": [
+  {
+   "fieldname": "image_info_section",
+   "fieldtype": "Section Break",
+   "label": "Image Information"
+  },
+  {
+   "fieldname": "title",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Image Title",
+   "reqd": 1
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Text",
+   "label": "Description"
+  },
+  {
+   "fieldname": "image_file",
+   "fieldtype": "Attach Image",
+   "label": "Image File",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "image_type",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Image Type",
+   "options": "Photo\nDiagram\nChart\nTable\nScreenshot\nLogo\nSignature\nOther"
+  },
+  {
+   "fieldname": "file_size",
+   "fieldtype": "Data",
+   "label": "File Size",
+   "read_only": 1
+  },
+  {
+   "fieldname": "dimensions",
+   "fieldtype": "Data",
+   "label": "Dimensions (WxH)",
+   "read_only": 1
+  },
+  {
+   "fieldname": "document_info_section",
+   "fieldtype": "Section Break",
+   "label": "Document Context"
+  },
+  {
+   "fieldname": "parent_document",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Parent Document",
+   "options": "AI Document",
+   "reqd": 1
+  },
+  {
+   "fieldname": "page_number",
+   "fieldtype": "Int",
+   "label": "Page Number"
+  },
+  {
+   "fieldname": "position_in_document",
+   "fieldtype": "Data",
+   "label": "Position in Document"
+  },
+  {
+   "fieldname": "column_break_9",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "extracted_text",
+   "fieldtype": "Text",
+   "label": "Extracted Text (OCR)"
+  },
+  {
+   "fieldname": "alt_text",
+   "fieldtype": "Data",
+   "label": "Alt Text"
+  },
+  {
+   "fieldname": "context_section",
+   "fieldtype": "Section Break",
+   "label": "Context & Analysis"
+  },
+  {
+   "fieldname": "surrounding_text",
+   "fieldtype": "Text",
+   "label": "Surrounding Text"
+  },
+  {
+   "fieldname": "image_context",
+   "fieldtype": "Text",
+   "label": "Image Context Description"
+  },
+  {
+   "fieldname": "column_break_13",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "tags",
+   "fieldtype": "Small Text",
+   "label": "Tags (comma separated)"
+  },
+  {
+   "fieldname": "category",
+   "fieldtype": "Select",
+   "label": "Category",
+   "options": "Illustration\nData Visualization\nProcess Flow\nArchitecture\nUI/UX\nTechnical Drawing\nPhoto\nOther"
+  },
+  {
+   "fieldname": "metadata_section",
+   "fieldtype": "Section Break",
+   "label": "Processing Metadata"
+  },
+  {
+   "fieldname": "extracted_date",
+   "fieldtype": "Datetime",
+   "label": "Extracted Date",
+   "read_only": 1
+  },
+  {
+   "fieldname": "extraction_method",
+   "fieldtype": "Select",
+   "label": "Extraction Method",
+   "options": "PDF\nWord Document\nPowerPoint\nImage Upload\nOCR",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_17",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0.0",
+   "fieldname": "confidence_score",
+   "fieldtype": "Float",
+   "label": "Confidence Score",
+   "read_only": 1
+  },
+  {
+   "default": "Pending",
+   "fieldname": "processing_status",
+   "fieldtype": "Select",
+   "label": "Processing Status",
+   "options": "Pending\nProcessing\nCompleted\nFailed",
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-09-26 14:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "dbiz_ai_agent",
+ "name": "Document Image",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "AI Agent Admin",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "read": 1,
+   "report": 1,
+   "role": "AI Agent User"
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

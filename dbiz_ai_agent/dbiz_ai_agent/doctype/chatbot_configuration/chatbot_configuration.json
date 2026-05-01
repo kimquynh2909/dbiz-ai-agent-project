@@ -1,0 +1,132 @@
+{
+  "actions": [],
+  "allow_rename": 1,
+  "autoname": "field:title",
+  "creation": "2024-09-26 10:00:00.000000",
+  "default_view": "List",
+  "doctype": "DocType",
+  "editable_grid": 1,
+  "engine": "InnoDB",
+  "field_order": [
+    "title",
+    "description",
+    "avatar_image",
+    "greeting_message",
+    "instructions",
+    "is_active",
+    "column_break_5",
+    "assistant_name",
+    "support_info",
+    "created_by_user",
+    "section_break_9",
+    "quick_questions"
+  ],
+  "fields": [
+    {
+      "fieldname": "title",
+      "fieldtype": "Data",
+      "in_list_view": 1,
+      "label": "Title",
+      "reqd": 1,
+      "unique": 1
+    },
+    {
+      "fieldname": "description",
+      "fieldtype": "Text",
+      "in_list_view": 1,
+      "label": "Description"
+    },
+    {
+      "fieldname": "avatar_image",
+      "fieldtype": "Attach Image",
+      "label": "Avatar Image"
+    },
+    {
+      "fieldname": "greeting_message",
+      "fieldtype": "Text",
+      "label": "Greeting Message"
+    },
+    {
+      "fieldname": "instructions",
+      "fieldtype": "Text",
+      "label": "Agent Instructions"
+    },
+    {
+      "default": "1",
+      "fieldname": "is_active",
+      "fieldtype": "Check",
+      "in_list_view": 1,
+      "label": "Is Active"
+    },
+    {
+      "fieldname": "column_break_5",
+      "fieldtype": "Column Break"
+    },
+    {
+      "fieldname": "assistant_name",
+      "fieldtype": "Data",
+      "label": "Assistant Name"
+    },
+    {
+      "fieldname": "support_info",
+      "fieldtype": "Text",
+      "label": "Support Info"
+    },
+    {
+      "fieldname": "created_by_user",
+      "fieldtype": "Link",
+      "label": "Created By",
+      "options": "User",
+      "read_only": 1
+    },
+    {
+      "fieldname": "section_break_9",
+      "fieldtype": "Section Break",
+      "label": "Quick Questions"
+    },
+    {
+      "fieldname": "quick_questions",
+      "fieldtype": "Table",
+      "label": "Quick Questions",
+      "options": "Quick Question"
+    }
+  ],
+  "index_web_pages_for_search": 1,
+  "links": [],
+  "modified": "2024-09-26 10:00:00.000000",
+  "modified_by": "Administrator",
+  "module": "dbiz_ai_agent",
+  "name": "Chatbot Configuration",
+  "naming_rule": "By fieldname",
+  "owner": "Administrator",
+  "permissions": [
+    {
+      "create": 1,
+      "delete": 1,
+      "email": 1,
+      "export": 1,
+      "print": 1,
+      "read": 1,
+      "report": 1,
+      "role": "System Manager",
+      "share": 1,
+      "write": 1
+    },
+    {
+      "create": 1,
+      "delete": 1,
+      "email": 1,
+      "export": 1,
+      "print": 1,
+      "read": 1,
+      "report": 1,
+      "role": "Administrator",
+      "share": 1,
+      "write": 1
+    }
+  ],
+  "sort_field": "modified",
+  "sort_order": "DESC",
+  "states": [],
+  "track_changes": 1
+}

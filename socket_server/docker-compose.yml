@@ -1,0 +1,65 @@
+services:
+  # Socket.IO Server
+  socketio:
+    build: .
+    container_name: dbiz-socketio
+    ports:
+      - "${SIO_PORT:-5179}:${SIO_PORT:-5179}"
+    environment:
+      NODE_ENV: ${NODE_ENV:-development}
+      SIO_PORT: ${SIO_PORT:-5179}
+      SIO_CORS: ${SIO_CORS}
+      SIO_AUTH_TOKEN: ${SIO_AUTH_TOKEN}
+      SIO_MAX_CONNECTIONS: ${SIO_MAX_CONNECTIONS:-1000}
+      SIO_RATE_LIMIT_MAX: ${SIO_RATE_LIMIT_MAX:-100}
+      SIO_RATE_LIMIT_WINDOW: ${SIO_RATE_LIMIT_WINDOW:-60000}
+    restart: unless-stopped
+    healthcheck:
+      test:
+        [
+          "CMD",
+          "wget",
+          "--no-verbose",
+          "--tries=1",
+          "--spider",
+          "http://localhost:${SIO_PORT:-5179}/health",
+        ]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+    volumes:
+      - ./logs:/app/logs
+    networks:
+      - app-network
+    deploy:
+      resources:
+        limits:
+          cpus: "1"
+          memory: 512M
+        reservations:
+          cpus: "0.5"
+          memory: 256M
+
+  # Qdrant Vector Database (nếu chưa có riêng)
+  # Uncomment nếu muốn quản lý Qdrant cùng file này
+  qdrant:
+    image: qdrant/qdrant:latest
+    container_name: qdrant
+    ports:
+      - "6333:6333"
+      - "6334:6334"
+    volumes:
+      - qdrant_storage:/qdrant/storage
+    restart: unless-stopped
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge
+    # Nếu bạn muốn kết nối với Qdrant đang chạy riêng:
+    # external: true
+    # name: your-existing-network
+volumes:
+  qdrant_storage:

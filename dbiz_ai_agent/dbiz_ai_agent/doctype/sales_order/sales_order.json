@@ -1,0 +1,161 @@
+{
+  "actions": [],
+  "allow_rename": 1,
+  "autoname": "format:SO-{####}",
+  "creation": "2024-01-01 10:00:00.000000",
+  "doctype": "DocType",
+  "editable_grid": 1,
+  "engine": "InnoDB",
+  "field_order": [
+    "customer_name",
+    "customer_email",
+    "customer_phone",
+    "column_break_1",
+    "order_date",
+    "status",
+    "section_break_items",
+    "items",
+    "section_break_totals",
+    "subtotal",
+    "tax_amount",
+    "column_break_totals",
+    "total_amount",
+    "notes"
+  ],
+  "fields": [
+    {
+      "fieldname": "customer_name",
+      "fieldtype": "Data",
+      "in_list_view": 1,
+      "label": "Tên khách hàng",
+      "reqd": 1
+    },
+    {
+      "fieldname": "customer_email",
+      "fieldtype": "Data",
+      "in_list_view": 1,
+      "label": "Email khách hàng"
+    },
+    {
+      "fieldname": "customer_phone",
+      "fieldtype": "Data",
+      "label": "Số điện thoại"
+    },
+    {
+      "fieldname": "column_break_1",
+      "fieldtype": "Column Break"
+    },
+    {
+      "fieldname": "order_date",
+      "fieldtype": "Date",
+      "in_list_view": 1,
+      "label": "Ngày đặt hàng",
+      "reqd": 1,
+      "default": "Today"
+    },
+    {
+      "fieldname": "status",
+      "fieldtype": "Select",
+      "in_list_view": 1,
+      "label": "Trạng thái",
+      "options": "Draft\nConfirmed\nProcessing\nCompleted\nCancelled",
+      "default": "Draft"
+    },
+    {
+      "fieldname": "section_break_items",
+      "fieldtype": "Section Break",
+      "label": "Chi tiết đơn hàng"
+    },
+    {
+      "fieldname": "items",
+      "fieldtype": "Table",
+      "label": "Sản phẩm",
+      "options": "Sales Order Detail",
+      "reqd": 1
+    },
+    {
+      "fieldname": "section_break_totals",
+      "fieldtype": "Section Break",
+      "label": "Tổng tiền"
+    },
+    {
+      "fieldname": "subtotal",
+      "fieldtype": "Currency",
+      "label": "Tổng tiền hàng",
+      "read_only": 1,
+      "default": "0.0"
+    },
+    {
+      "fieldname": "tax_amount",
+      "fieldtype": "Currency",
+      "label": "Thuế VAT",
+      "default": "0.0"
+    },
+    {
+      "fieldname": "column_break_totals",
+      "fieldtype": "Column Break"
+    },
+    {
+      "fieldname": "total_amount",
+      "fieldtype": "Currency",
+      "in_list_view": 1,
+      "label": "Tổng cộng",
+      "read_only": 1,
+      "default": "0.0"
+    },
+    {
+      "fieldname": "notes",
+      "fieldtype": "Small Text",
+      "label": "Ghi chú"
+    }
+  ],
+  "index_web_pages_for_search": 1,
+  "links": [],
+  "modified": "2024-01-01 10:00:00.000000",
+  "modified_by": "Administrator",
+  "module": "dbiz_ai_agent",
+  "name": "Sales Order",
+  "owner": "Administrator",
+  "permissions": [
+    {
+      "create": 1,
+      "delete": 1,
+      "email": 1,
+      "export": 1,
+      "print": 1,
+      "read": 1,
+      "report": 1,
+      "role": "System Manager",
+      "share": 1,
+      "write": 1
+    },
+    {
+      "create": 1,
+      "delete": 1,
+      "email": 1,
+      "export": 1,
+      "print": 1,
+      "read": 1,
+      "report": 1,
+      "role": "AI Agent Admin",
+      "share": 1,
+      "write": 1
+    },
+    {
+      "create": 1,
+      "delete": 0,
+      "email": 1,
+      "export": 1,
+      "print": 1,
+      "read": 1,
+      "report": 1,
+      "role": "AI Agent User",
+      "share": 1,
+      "write": 1
+    }
+  ],
+  "sort_field": "modified",
+  "sort_order": "DESC",
+  "track_changes": 1
+}
+

@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Git
+.git/
+.gitignore
+
+# Documentation (không cần trong container)
+README.md
+DEPLOYMENT.md
+
+# Config files không cần
+ecosystem.config.js
+test-server.sh
+docker-compose.yml
+Dockerfile
+.dockerignore
+
+# Cache
+.npm/
+.cache/

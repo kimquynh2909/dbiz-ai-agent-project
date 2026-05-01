@@ -1,0 +1,413 @@
+{
+  "index.html": {
+    "file": "assets/index.cbc894f1.js",
+    "src": "index.html",
+    "isEntry": true,
+    "imports": [
+      "_vendor.8edb8f74.js"
+    ],
+    "dynamicImports": [
+      "src/pages/Dashboard.vue",
+      "src/pages/AIAgents.vue",
+      "src/pages/Analytics.vue",
+      "src/pages/Widget.vue",
+      "src/pages/Knowledge.vue",
+      "src/pages/Settings.vue",
+      "src/pages/Users.vue",
+      "src/pages/Login.vue",
+      "src/pages/ForgotPassword.vue",
+      "src/pages/ContactAdmin.vue",
+      "src/pages/OCR.vue",
+      "src/pages/Integrations.vue",
+      "src/pages/ChatbotPermissions.vue",
+      "src/pages/Profile.vue",
+      "src/pages/AgentDetail.vue"
+    ],
+    "css": [
+      "assets/index.3eb2360f.css"
+    ],
+    "assets": [
+      "assets/dbizlogodark.bdb8f5c9.png",
+      "assets/minilogo.ead55d1e.png",
+      "assets/Inter-Thin.918c5cbe.woff2",
+      "assets/Inter-Thin.2198e9fb.woff",
+      "assets/Inter-ThinItalic.a3279f0a.woff2",
+      "assets/Inter-ThinItalic.f53f21de.woff",
+      "assets/Inter-ExtraLight.4c337585.woff2",
+      "assets/Inter-ExtraLight.1c06ef44.woff",
+      "assets/Inter-ExtraLightItalic.7b39e865.woff2",
+      "assets/Inter-ExtraLightItalic.0e5667b1.woff",
+      "assets/Inter-Light.87ed65f8.woff2",
+      "assets/Inter-Light.319f53ba.woff",
+      "assets/Inter-LightItalic.5b94e337.woff2",
+      "assets/Inter-LightItalic.289a60bc.woff",
+      "assets/Inter-Regular.c342b1b7.woff2",
+      "assets/Inter-Regular.b825f1bc.woff",
+      "assets/Inter-Italic.950174d1.woff2",
+      "assets/Inter-Italic.b0b21adf.woff",
+      "assets/Inter-Medium.a4e1e7e6.woff2",
+      "assets/Inter-Medium.f500bbb9.woff",
+      "assets/Inter-MediumItalic.d4a7f5d9.woff2",
+      "assets/Inter-MediumItalic.d06751dd.woff",
+      "assets/Inter-SemiBold.af44b8a2.woff2",
+      "assets/Inter-SemiBold.3041a990.woff",
+      "assets/Inter-SemiBoldItalic.a4f92da5.woff2",
+      "assets/Inter-SemiBoldItalic.5ce565c8.woff",
+      "assets/Inter-Bold.2efd8e3c.woff2",
+      "assets/Inter-Bold.2b828bef.woff",
+      "assets/Inter-BoldItalic.f528d863.woff2",
+      "assets/Inter-BoldItalic.8bc8e0ff.woff",
+      "assets/Inter-ExtraBold.74e72c6b.woff2",
+      "assets/Inter-ExtraBold.585b4ce1.woff",
+      "assets/Inter-ExtraBoldItalic.2abc7ab1.woff2",
+      "assets/Inter-ExtraBoldItalic.b87f7d97.woff",
+      "assets/Inter-Black.bc2198e0.woff2",
+      "assets/Inter-Black.9c79713b.woff",
+      "assets/Inter-BlackItalic.1cb529a7.woff2",
+      "assets/Inter-BlackItalic.7ecbf9fa.woff"
+    ]
+  },
+  "_vendor.8edb8f74.js": {
+    "file": "assets/vendor.8edb8f74.js",
+    "dynamicImports": [
+      "node_modules/frappe-ui/src/components/TextEditor/FontColor.vue",
+      "node_modules/frappe-ui/src/components/TextEditor/InsertLink.vue",
+      "node_modules/frappe-ui/src/components/TextEditor/InsertImage.vue",
+      "node_modules/frappe-ui/src/components/TextEditor/InsertVideo.vue"
+    ],
+    "css": [
+      "assets/vendor.1f7d581e.css"
+    ]
+  },
+  "src/pages/Dashboard.vue": {
+    "file": "assets/Dashboard.54111efb.js",
+    "src": "src/pages/Dashboard.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor.8edb8f74.js",
+      "index.html",
+      "_streamingResume.978ef10c.js",
+      "_ModalBase.9fde77bc.js",
+      "_auto.cb9701d0.js"
+    ],
+    "dynamicImports": [
+      "_streamingResume.978ef10c.js"
+    ],
+    "css": [
+      "assets/Dashboard.042dd24e.css"
+    ]
+  },
+  "_streamingResume.978ef10c.js": {
+    "file": "assets/streamingResume.978ef10c.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor.8edb8f74.js",
+      "_auto.cb9701d0.js",
+      "index.html",
+      "_ModalBase.9fde77bc.js"
+    ],
+    "css": [
+      "assets/streamingResume.1a173279.css"
+    ],
+    "assets": [
+      "assets/chatbot.35a7a8d4.png",
+      "assets/KaTeX_AMS-Regular.0cdd387c.woff2",
+      "assets/KaTeX_AMS-Regular.30da91e8.woff",
+      "assets/KaTeX_AMS-Regular.68534840.ttf",
+      "assets/KaTeX_Caligraphic-Bold.de7701e4.woff2",
+      "assets/KaTeX_Caligraphic-Bold.1ae6bd74.woff",
+      "assets/KaTeX_Caligraphic-Bold.07d8e303.ttf",
+      "assets/KaTeX_Caligraphic-Regular.5d53e70a.woff2",
+      "assets/KaTeX_Caligraphic-Regular.3398dd02.woff",
+      "assets/KaTeX_Caligraphic-Regular.ed0b7437.ttf",
+      "assets/KaTeX_Fraktur-Bold.74444efd.woff2",
+      "assets/KaTeX_Fraktur-Bold.9be7ceb8.woff",
+      "assets/KaTeX_Fraktur-Bold.9163df9c.ttf",
+      "assets/KaTeX_Fraktur-Regular.51814d27.woff2",
+      "assets/KaTeX_Fraktur-Regular.5e28753b.woff",
+      "assets/KaTeX_Fraktur-Regular.1e6f9579.ttf",
+      "assets/KaTeX_Main-Bold.0f60d1b8.woff2",
+      "assets/KaTeX_Main-Bold.c76c5d69.woff",
+      "assets/KaTeX_Main-Bold.138ac28d.ttf",
+      "assets/KaTeX_Main-BoldItalic.99cd42a3.woff2",
+      "assets/KaTeX_Main-BoldItalic.a6f7ec0d.woff",
+      "assets/KaTeX_Main-BoldItalic.70ee1f64.ttf",
+      "assets/KaTeX_Main-Italic.97479ca6.woff2",
+      "assets/KaTeX_Main-Italic.f1d6ef86.woff",
+      "assets/KaTeX_Main-Italic.0d85ae7c.ttf",
+      "assets/KaTeX_Main-Regular.c2342cd8.woff2",
+      "assets/KaTeX_Main-Regular.c6368d87.woff",
+      "assets/KaTeX_Main-Regular.d0332f52.ttf",
+      "assets/KaTeX_Math-BoldItalic.dc47344d.woff2",
+      "assets/KaTeX_Math-BoldItalic.850c0af5.woff",
+      "assets/KaTeX_Math-BoldItalic.f9377ab0.ttf",
+      "assets/KaTeX_Math-Italic.7af58c5e.woff2",
+      "assets/KaTeX_Math-Italic.8a8d2445.woff",
+      "assets/KaTeX_Math-Italic.08ce98e5.ttf",
+      "assets/KaTeX_SansSerif-Bold.e99ae511.woff2",
+      "assets/KaTeX_SansSerif-Bold.ece03cfd.woff",
+      "assets/KaTeX_SansSerif-Bold.1ece03f7.ttf",
+      "assets/KaTeX_SansSerif-Italic.00b26ac8.woff2",
+      "assets/KaTeX_SansSerif-Italic.91ee6750.woff",
+      "assets/KaTeX_SansSerif-Italic.3931dd81.ttf",
+      "assets/KaTeX_SansSerif-Regular.68e8c73e.woff2",
+      "assets/KaTeX_SansSerif-Regular.11e4dc8a.woff",
+      "assets/KaTeX_SansSerif-Regular.f36ea897.ttf",
+      "assets/KaTeX_Script-Regular.036d4e95.woff2",
+      "assets/KaTeX_Script-Regular.d96cdf2b.woff",
+      "assets/KaTeX_Script-Regular.1c67f068.ttf",
+      "assets/KaTeX_Size1-Regular.6b47c401.woff2",
+      "assets/KaTeX_Size1-Regular.c943cc98.woff",
+      "assets/KaTeX_Size1-Regular.95b6d2f1.ttf",
+      "assets/KaTeX_Size2-Regular.d04c5421.woff2",
+      "assets/KaTeX_Size2-Regular.2014c523.woff",
+      "assets/KaTeX_Size2-Regular.a6b2099f.ttf",
+      "assets/KaTeX_Size3-Regular.6ab6b62e.woff",
+      "assets/KaTeX_Size3-Regular.500e04d5.ttf",
+      "assets/KaTeX_Size4-Regular.a4af7d41.woff2",
+      "assets/KaTeX_Size4-Regular.99f9c675.woff",
+      "assets/KaTeX_Size4-Regular.c647367d.ttf",
+      "assets/KaTeX_Typewriter-Regular.71d517d6.woff2",
+      "assets/KaTeX_Typewriter-Regular.e14fed02.woff",
+      "assets/KaTeX_Typewriter-Regular.f01f3e87.ttf"
+    ]
+  },
+  "_ModalBase.9fde77bc.js": {
+    "file": "assets/ModalBase.9fde77bc.js",
+    "imports": [
+      "_vendor.8edb8f74.js"
+    ],
+    "css": [
+      "assets/ModalBase.6bc47e07.css"
+    ]
+  },
+  "_auto.cb9701d0.js": {
+    "file": "assets/auto.cb9701d0.js"
+  },
+  "src/pages/AIAgents.vue": {
+    "file": "assets/AIAgents.89f46fdd.js",
+    "src": "src/pages/AIAgents.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor.8edb8f74.js"
+    ],
+    "css": [
+      "assets/AIAgents.99d0617b.css"
+    ],
+    "assets": [
+      "assets/dbiz_erp.806a689f.png",
+      "assets/dbiz_cx.cc2c0c01.png",
+      "assets/dbiz_data.2b6cecfb.png",
+      "assets/dbiz_microsme.f12fd895.png"
+    ]
+  },
+  "src/pages/Analytics.vue": {
+    "file": "assets/Analytics.0795f599.js",
+    "src": "src/pages/Analytics.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor.8edb8f74.js",
+      "_auto.cb9701d0.js"
+    ],
+    "css": [
+      "assets/Analytics.b648d9ad.css"
+    ]
+  },
+  "src/pages/Widget.vue": {
+    "file": "assets/Widget.52948755.js",
+    "src": "src/pages/Widget.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor.8edb8f74.js",
+      "_streamingResume.978ef10c.js",
+      "index.html",
+      "_auto.cb9701d0.js",
+      "_ModalBase.9fde77bc.js"
+    ],
+    "css": [
+      "assets/Widget.d6a6b746.css"
+    ]
+  },
+  "src/pages/Knowledge.vue": {
+    "file": "assets/Knowledge.a161d5b1.js",
+    "src": "src/pages/Knowledge.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor.8edb8f74.js",
+      "_DocumentPreviewModal.2f3c9646.js",
+      "index.html"
+    ],
+    "css": [
+      "assets/Knowledge.b1147539.css"
+    ]
+  },
+  "_DocumentPreviewModal.2f3c9646.js": {
+    "file": "assets/DocumentPreviewModal.2f3c9646.js",
+    "imports": [
+      "index.html",
+      "_vendor.8edb8f74.js"
+    ],
+    "dynamicImports": [
+      "_index.ddded25d.js"
+    ],
+    "css": [
+      "assets/DocumentPreviewModal.af59dbfc.css"
+    ]
+  },
+  "src/pages/Settings.vue": {
+    "file": "assets/Settings.be5fa739.js",
+    "src": "src/pages/Settings.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor.8edb8f74.js"
+    ],
+    "css": [
+      "assets/Settings.0db1d215.css"
+    ]
+  },
+  "src/pages/Users.vue": {
+    "file": "assets/Users.5bf1dfc9.js",
+    "src": "src/pages/Users.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor.8edb8f74.js",
+      "_StatsCard.b2b61330.js",
+      "index.html"
+    ]
+  },
+  "_StatsCard.b2b61330.js": {
+    "file": "assets/StatsCard.b2b61330.js",
+    "imports": [
+      "_vendor.8edb8f74.js"
+    ],
+    "css": [
+      "assets/StatsCard.4689107d.css"
+    ]
+  },
+  "src/pages/Login.vue": {
+    "file": "assets/Login.b4f89267.js",
+    "src": "src/pages/Login.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor.8edb8f74.js",
+      "index.html"
+    ],
+    "assets": [
+      "assets/dbiz.7594652e.png",
+      "assets/loginbackground.359912b3.png"
+    ]
+  },
+  "src/pages/ForgotPassword.vue": {
+    "file": "assets/ForgotPassword.660791b1.js",
+    "src": "src/pages/ForgotPassword.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor.8edb8f74.js",
+      "index.html"
+    ]
+  },
+  "src/pages/ContactAdmin.vue": {
+    "file": "assets/ContactAdmin.9b76f35a.js",
+    "src": "src/pages/ContactAdmin.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor.8edb8f74.js",
+      "index.html"
+    ]
+  },
+  "src/pages/OCR.vue": {
+    "file": "assets/OCR.dd860027.js",
+    "src": "src/pages/OCR.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor.8edb8f74.js",
+      "index.html"
+    ],
+    "css": [
+      "assets/OCR.d4c77671.css"
+    ]
+  },
+  "src/pages/Integrations.vue": {
+    "file": "assets/Integrations.4b9099a6.js",
+    "src": "src/pages/Integrations.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor.8edb8f74.js",
+      "index.html"
+    ]
+  },
+  "src/pages/ChatbotPermissions.vue": {
+    "file": "assets/ChatbotPermissions.390e8642.js",
+    "src": "src/pages/ChatbotPermissions.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor.8edb8f74.js",
+      "_ModalBase.9fde77bc.js",
+      "_StatsCard.b2b61330.js",
+      "index.html",
+      "_DocumentPreviewModal.2f3c9646.js"
+    ],
+    "css": [
+      "assets/ChatbotPermissions.dd7d0765.css"
+    ]
+  },
+  "src/pages/Profile.vue": {
+    "file": "assets/Profile.efe8551f.js",
+    "src": "src/pages/Profile.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor.8edb8f74.js"
+    ]
+  },
+  "src/pages/AgentDetail.vue": {
+    "file": "assets/AgentDetail.2644d699.js",
+    "src": "src/pages/AgentDetail.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor.8edb8f74.js",
+      "index.html"
+    ],
+    "css": [
+      "assets/AgentDetail.5d48a603.css"
+    ]
+  },
+  "node_modules/frappe-ui/src/components/TextEditor/FontColor.vue": {
+    "file": "assets/FontColor.2b62b86f.js",
+    "src": "node_modules/frappe-ui/src/components/TextEditor/FontColor.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor.8edb8f74.js"
+    ]
+  },
+  "node_modules/frappe-ui/src/components/TextEditor/InsertLink.vue": {
+    "file": "assets/InsertLink.aa2dbbb6.js",
+    "src": "node_modules/frappe-ui/src/components/TextEditor/InsertLink.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor.8edb8f74.js"
+    ]
+  },
+  "node_modules/frappe-ui/src/components/TextEditor/InsertImage.vue": {
+    "file": "assets/InsertImage.e25bfcea.js",
+    "src": "node_modules/frappe-ui/src/components/TextEditor/InsertImage.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor.8edb8f74.js"
+    ]
+  },
+  "node_modules/frappe-ui/src/components/TextEditor/InsertVideo.vue": {
+    "file": "assets/InsertVideo.790728cf.js",
+    "src": "node_modules/frappe-ui/src/components/TextEditor/InsertVideo.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor.8edb8f74.js"
+    ]
+  },
+  "_index.ddded25d.js": {
+    "file": "assets/index.ddded25d.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor.8edb8f74.js"
+    ]
+  }
+}

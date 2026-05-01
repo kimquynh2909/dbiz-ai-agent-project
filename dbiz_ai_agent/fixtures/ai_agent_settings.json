@@ -1,0 +1,30 @@
+[
+  {
+    "doctype": "AI Agent Settings",
+    "name": "AI Agent Settings",
+    "system_name": "AI IT Assistant",
+    "language": "vi",
+    "theme": "light",
+    "timezone": "Asia/Ho_Chi_Minh",
+    "date_format": "dd/mm/yyyy",
+    "openai_api_key": "",
+    "model": "gpt-4o-mini",
+    "embedding_model": "text-embedding-3-small",
+    "temperature": 0.7,
+    "max_tokens": 1000,
+    "context_window": 5,
+    "chunk_size": 1000,
+    "chunk_overlap": 200,
+    "retrieval_docs": 3,
+    "firebase_api_key": "",
+    "firebase_auth_domain": "chatbot-9a302.firebaseapp.com",
+    "firebase_database_url": "https://chatbot-9a302-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "firebase_project_id": "chatbot-9a302",
+    "firebase_storage_bucket": "chatbot-9a302.firebasestorage.app",
+    "firebase_messaging_sender_id": "462200417781",
+    "firebase_app_id": "1:462200417781:web:b810f6ebf2c175e80a84bc",
+    "firebase_measurement_id": "G-W8NK7MHD3X",
+    "firebase_sa_client_email": "firebase-adminsdk-fbsvc@chatbot-9a302.iam.gserviceaccount.com",
+    "firebase_sa_private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDDh5IJaKU+lAlv\nAVt21NqtpV3BM7aHxeC4VLvfXYYowubQjXnwH6GOLc+sgSMpYcpyQyYKWAW0h/K3\nBgNoe09DFbOZENuWvegL7bytJrhEstDHG+mMgL0aJkpagRPhwc8a22rpEAtpPW1+\nMUDAT030X2AnAHDQXZsRXj82Ym9RC0ZXbUlqbdWYih990xWQcQj5xXtGSgDMEbL0\nTKEx7YPGqh/SOQ01sNdycHb3gLNw/g3h0rTxpgUM74b9+9fkLHPV54WZx1TV9JiL\n/R+aHSMy8g86TdvsMtX7VPSd/U29oqs9BAHajl2jPXcbggcJxgNFXlPgWvXel0JH\nbITi38JJAgMBAAECggEACtjly2NUjX7xcgjRfetrkUgUBjCb/vbFk3xR6t+Znn/H\nhcjfe6iJkiVs+L02Seisrj+W5+p/sIb9OlWZUU3L9SUKUGLMx9VTvvuqpLF59ge0\niOM9xudqdj2rEM/J3lOd7XfAO9tBws4fWamaVcDgin7TCv7dg1W6EVHY8GewFL8S\nR5JkLg7frmcIBQ3k6XTiBugj7EWAJeQ2uBLKYT1JO3oFYd2JLKQEIsmhZ3O7FvAU\n/o6UhKVaKHX8nY5uGXZPYH6UdJSuozxsYgXoiaQJC+NkZ7dPJIi0sUdMWGbkwZ7q\nSfSnEAxKW8GVJb/Oxtbrh+8FOAvqcCGcqd/7pPKxzQKBgQDqOyyV5jsi6d0U1NM8\n8xraVzlFtu3iyMY+4ToNLAY8PHhFRIHcwwsImqEt8+cv0J69gSrBvDFfbeEOBrHj\nQQ2KVwvgNAdAFX16mSQSFXPS9Etsv7NkKmqqULWrSYr+uZPTKBn/+X2yxC3L8IFj\njPzqVSQhNWoesQUBMshmi89pBQKBgQDVs5vQaAwPabXLuTfBbKTH1K/QfW2Dv39x\n3xuhIpopry2oE4WCyDhMS6vawsapsJcVv/iMesSGgy5LFu+SLHusaM30WmL/r9OB\nsNn2wQ1SAqoQb+K86ZfIGu4IjfBIL1TkhLt2uy0e1h+AH3nHysC6PqUbjOIOHRLk\nwQRDu9EndQKBgAQEZ8taW4FJyYTl8YmGEdvUyyKq9IGDOAM0Ea7QJns5/kYR2rhS\nkAnhvQnwuPJU/aP6ZyVTePVOCSIYc0yWfQj2XTnHKqiqtbA4mCnHPGlNz01aLFV3\ndMTfBX6ekEe2HxbsBSYivUknnDF3OoDelifetfPr2poUJyXSHSXFGBWRAoGBAMr/\nGC26CGrDsctZn9r/BvBD2tajrtoNmFRk6OwB4ItkOmyETrjS1Je08gSWLPyYIIyq\nlMFtBS35gooVuXETDE/UJn/NNGlJbhKuGf5JmAulOELw5WMqSeHtottBaVRIkc2Z\nQDIiz1ORds7QF3Bv6u9//nrTMxDREVd2+kQVLzLZAoGBAICtMq8Pkm7pj+Hbo5yg\nnXfFJTm1Bb1C0kxp21V+3p5vFjM0oNxu0NkNuejqK83NaviKnbV1pEF6dftTJP4M\nQnsvRaQ8sHA8LgQgp/dKhMLbUKibaTRpdx5pAvOjP6vCFL0iahahkjmPC3ygFM2D\nLC1MemYLe5iH/wOSUpJ24ua9\n-----END PRIVATE KEY-----\n"
+  }
+]

@@ -1,0 +1,159 @@
+{
+    "actions": [],
+    "allow_rename": 1,
+    "autoname": "format:CONV-{####}",
+    "creation": "2024-01-01 10:00:00.000000",
+    "doctype": "DocType",
+    "editable_grid": 1,
+    "engine": "InnoDB",
+    "field_order": [
+        "user",
+        "title",
+        "status",
+        "openai_conversation_id",
+        "column_break_1",
+        "created_date",
+        "last_message_date",
+        "message_count",
+        "section_break_1",
+        "messages",
+        "section_break_2",
+        "context",
+        "model_used",
+        "total_tokens"
+    ],
+    "fields": [
+        {
+            "fieldname": "user",
+            "fieldtype": "Link",
+            "in_list_view": 1,
+            "label": "User",
+            "options": "User",
+            "reqd": 1
+        },
+        {
+            "fieldname": "title",
+            "fieldtype": "Data",
+            "in_list_view": 1,
+            "label": "Title"
+        },
+        {
+            "fieldname": "status",
+            "fieldtype": "Select",
+            "label": "Status",
+            "options": "Active\nArchived\nDeleted",
+            "default": "Active"
+        },
+        {
+            "fieldname": "openai_conversation_id",
+            "fieldtype": "Data",
+            "label": "OpenAI Conversation ID"
+        },
+        {
+            "fieldname": "column_break_1",
+            "fieldtype": "Column Break"
+        },
+        {
+            "fieldname": "created_date",
+            "fieldtype": "Datetime",
+            "label": "Created Date",
+            "read_only": 1
+        },
+        {
+            "fieldname": "last_message_date",
+            "fieldtype": "Datetime",
+            "label": "Last Message Date",
+            "read_only": 1
+        },
+        {
+            "fieldname": "message_count",
+            "fieldtype": "Int",
+            "label": "Message Count",
+            "read_only": 1,
+            "default": "0"
+        },
+        {
+            "fieldname": "section_break_1",
+            "fieldtype": "Section Break",
+            "label": "Messages"
+        },
+        {
+            "fieldname": "messages",
+            "fieldtype": "Table",
+            "label": "Messages",
+            "options": "AI Message"
+        },
+        {
+            "fieldname": "section_break_2",
+            "fieldtype": "Section Break",
+            "label": "Metadata"
+        },
+        {
+            "fieldname": "context",
+            "fieldtype": "JSON",
+            "label": "Context",
+            "hidden": 1
+        },
+        {
+            "fieldname": "model_used",
+            "fieldtype": "Data",
+            "label": "Model Used",
+            "read_only": 1
+        },
+        {
+            "fieldname": "total_tokens",
+            "fieldtype": "Int",
+            "label": "Total Tokens Used",
+            "read_only": 1,
+            "default": "0"
+        }
+    ],
+    "index_web_pages_for_search": 1,
+    "links": [],
+    "modified": "2024-01-01 10:00:00.000000",
+    "modified_by": "Administrator",
+    "module": "dbiz_ai_agent",
+    "name": "AI Conversation",
+    "owner": "Administrator",
+    "permissions": [
+        {
+            "create": 1,
+            "delete": 1,
+            "email": 1,
+            "export": 1,
+            "print": 1,
+            "read": 1,
+            "report": 1,
+            "role": "System Manager",
+            "share": 1,
+            "write": 1
+        },
+        {
+            "create": 1,
+            "delete": 1,
+            "email": 1,
+            "export": 1,
+            "print": 1,
+            "read": 1,
+            "report": 1,
+            "role": "AI Agent Admin",
+            "share": 1,
+            "write": 1
+        },
+        {
+            "create": 1,
+            "delete": 1,
+            "email": 1,
+            "export": 1,
+            "print": 1,
+            "read": 1,
+            "report": 1,
+            "role": "AI Agent User",
+            "share": 1,
+            "write": 1
+        }
+    ],
+    "sort_field": "modified",
+    "sort_order": "DESC",
+    "track_changes": 1
+}

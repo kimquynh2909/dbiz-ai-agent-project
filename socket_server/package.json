@@ -1,0 +1,28 @@
+{
+  "name": "socket-server",
+  "version": "1.0.0",
+  "description": "Production-ready Socket.IO server for real-time chat streaming",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "socketio",
+    "websocket",
+    "realtime",
+    "chat"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  }
+}

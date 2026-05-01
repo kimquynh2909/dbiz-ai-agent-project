@@ -1,0 +1,37 @@
+{
+  "name": "dbiz-ai-agent",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build --base=/assets/dbiz_ai_agent/frontend/ && yarn copy-html-entry",
+    "copy-html-entry": "cp ../dbiz_ai_agent/public/frontend/index.html ../dbiz_ai_agent/www/dbiz_ai_agent.html",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "@heroicons/vue": "^2.0.18",
+    "axios": "^1.5.0",
+    "chart.js": "^4.4.0",
+    "feather-icons": "^4.28.0",
+    "frappe-ui": "^0.0.105",
+    "katex": "^0.16.23",
+    "lucide-vue-next": "^0.294.0",
+    "socket.io-client": "^4.7.2",
+    "mammoth": "^1.4.21",
+    "markdown-it": "^13.0.2",
+    "markdown-it-katex": "^2.0.3",
+    "markdown-it-texmath": "^1.0.0",
+    "pinia": "^2.1.7",
+    "vue": "^3.2.25",
+    "vue-chartjs": "^5.2.0",
+    "vue-i18n": "^9.2.2",
+    "vue-router": "^4.0.12"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.0.0",
+    "autoprefixer": "^10.4.2",
+    "postcss": "^8.4.5",
+    "tailwindcss": "^3.0.15",
+    "vite": "^2.7.2"
+  }
+}

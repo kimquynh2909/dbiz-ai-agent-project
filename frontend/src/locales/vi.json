@@ -1,0 +1,1247 @@
+{
+  "common": {
+    "dashboard": "Bảng điều khiển",
+    "aiAgents": "AI Agents",
+    "chatbot": "Chatbot AI",
+    "ocr": "Xử lý chứng từ tự động",
+    "knowledge": "Kiến thức nền tảng",
+    "integrations": "Tích hợp hệ thống",
+    "analytics": "Phân tích & Thống kê",
+    "permissions": "Phân quyền Chatbot",
+    "settings": "Cài đặt",
+    "users": "Người dùng",
+    "logout": "Đăng xuất",
+    "profile": "Hồ sơ",
+    "save": "Lưu",
+    "cancel": "Hủy",
+    "delete": "Xóa",
+    "edit": "Sửa",
+    "add": "Thêm mới",
+    "search": "Tìm kiếm",
+    "filter": "Lọc",
+    "export": "Xuất",
+    "import": "Nhập",
+    "upload": "Tải lên",
+    "download": "Tải xuống",
+    "actions": "Hành động",
+    "status": "Trạng thái",
+    "date": "Ngày",
+    "time": "Thời gian",
+    "confirm": "Xác nhận",
+    "loading": "Đang tải...",
+    "noData": "Không có dữ liệu",
+    "create": "Tạo mới",
+    "move": "Di chuyển"
+  },
+  "sidebar": {
+    "mainMenu": "MENU CHÍNH",
+    "system": "HỆ THỐNG",
+    "menuItems": {
+      "dashboard": {
+        "title": "Bảng điều khiển",
+        "description": "Tổng quan hệ thống AI Agent"
+      },
+      "aiAgents": {
+        "title": "AI Agents",
+        "description": "Khám phá và quản lý AI Agents"
+      },
+      "chatbot": {
+        "title": "Chatbot",
+        "description": "Quản lý cuộc hội thoại và AI chatbot"
+      },
+      "ocr": {
+        "title": "OCR",
+        "description": "Nhận dạng và trích xuất văn bản từ hình ảnh"
+      },
+      "knowledge": {
+        "title": "Kiến thức nền tảng",
+        "description": "Quản lý thư viện tài liệu và kiến thức"
+      },
+      "integrations": {
+        "title": "Tích hợp Hệ thống",
+        "description": "Kết nối với các hệ thống bên ngoài"
+      },
+      "analytics": {
+        "title": "Phân tích & Thống kê",
+        "description": "Báo cáo và thống kê hệ thống"
+      },
+      "permissions": {
+        "title": "Phân quyền",
+        "description": "Quản lý quyền truy cập dữ liệu và cơ sở dữ liệu vector"
+      },
+      "settings": {
+        "title": "Cài đặt",
+        "description": "Cấu hình hệ thống"
+      },
+      "profile": {
+        "title": "Thông tin cá nhân",
+        "description": "Quản lý thông tin cá nhân và bảo mật"
+      }
+    },
+    "defaultTitle": "AI Agent Admin"
+  },
+  "chat": {
+    "title": "AI IT Assistant",
+    "subtitle": "Hỗ trợ IT với GPT OpenAI",
+    "user": "Bạn",
+    "responding": "đang trả lời...",
+    "generatingResponse": "Đang tạo phản hồi...",
+    "referenceSources": "Nguồn tham khảo",
+    "welcomeTitle": "Xin chào! Tôi là Ms.Sunny 👋",
+    "welcomeDescription": "Tôi là AI IT Assistant của bạn. Hãy hỏi tôi về công nghệ, IT support!",
+    "supportInfo": "Tôi có thể giúp bạn với các vấn đề về công nghệ và IT",
+    "welcomeMessage": "Chào mừng đến với AI IT Assistant!",
+    "welcomeDesc": "Tôi có thể giúp bạn giải quyết các vấn đề về IT, hướng dẫn kỹ thuật, và trả lời các câu hỏi dựa trên tài liệu đã upload.",
+    "placeholder": "Nhập câu hỏi của bạn...",
+    "send": "Gửi",
+    "thinking": "Đang suy nghĩ...",
+    "error": "Có lỗi xảy ra, vui lòng thử lại",
+    "history": "Lịch sử hội thoại",
+    "conversationListTitle": "Các cuộc trò chuyện",
+    "newChat": "Cuộc trò chuyện mới",
+    "clearAll": "Xóa tất cả",
+    "clearHistory": "Xóa lịch sử",
+    "deleteConversation": "Xóa cuộc trò chuyện",
+    "confirmDeleteConversation": "Bạn có chắc muốn xóa cuộc trò chuyện \"{title}\"?",
+    "feedback": {
+      "helpful": "Câu trả lời hữu ích?",
+      "yes": "Có",
+      "no": "Không",
+      "thanks": "Cảm ơn phản hồi của bạn!"
+    },
+    "suggestions": {
+      "resetPassword": "Làm thế nào để reset password?",
+      "installSoftware": "Hướng dẫn cài đặt phần mềm",
+      "serverIssue": "Khắc phục sự cố server",
+      "emailSetup": "Cấu hình email client"
+    },
+    "timeAgo": {
+      "today": "Hôm nay",
+      "yesterday": "Hôm qua",
+      "daysAgo": "ngày trước"
+    },
+    "confirmClearHistory": "Bạn có chắc muốn xóa toàn bộ lịch sử chat?"
+  },
+  "knowledge": {
+    "title": "Kiến thức nền tảng",
+    "subtitle": "Quản lý và truy cập tài liệu IT",
+    "pageTitle": "Quản lý Kiến thức",
+    "pageSubtitle": "Lưu trữ và quản lý tài liệu doanh nghiệp",
+    "folders": "Thư mục",
+    "allDocuments": "Tất cả tài liệu",
+    "searchPlaceholder": "Tìm kiếm tài liệu...",
+    "noDocuments": "Chưa có tài liệu nào",
+    "uploadFirstDocument": "Tải lên tài liệu đầu tiên để bắt đầu",
+    "uploadDocument": "Tải lên tài liệu",
+    "upload": "Tải lên",
+    "createFolder": "Tạo thư mục",
+    "breadcrumb": {
+      "root": "Thư mục gốc"
+    },
+    "addDocument": "Thêm tài liệu",
+    "sourceSelection": {
+      "title": "Chọn nguồn tài liệu",
+      "subtitle": "Chọn nguồn bạn muốn thêm tài liệu",
+      "comingSoon": "Sắp ra mắt",
+      "comingSoonMessage": "Tính năng này sẽ sớm được ra mắt!",
+      "sources": {
+        "paste": {
+          "title": "Dán vào văn bản",
+          "description": "Tạo từ ghi chú, đề cương hoặc nội dung hiện có"
+        },
+        "file": {
+          "title": "Nhập tệp hoặc URL",
+          "description": "Tăng cường tài liệu, bản trình bày hoặc trang web hiện có"
+        },
+        "gdrive": {
+          "title": "Google Drive",
+          "description": "Đồng bộ tài liệu từ Google Drive"
+        },
+        "onedrive": {
+          "title": "OneDrive",
+          "description": "Đồng bộ tài liệu từ OneDrive"
+        }
+      }
+    },
+    "pasteModal": {
+      "title": "Dán văn bản",
+      "titleLabel": "Tiêu đề",
+      "titlePlaceholder": "Nhập tiêu đề cho nội dung",
+      "contentLabel": "Nội dung",
+      "contentPlaceholder": "Dán hoặc nhập nội dung của bạn ở đây...",
+      "contentHint": "Nội dung sẽ được lưu thành file và tự động embedding để AI có thể tìm kiếm",
+      "fillRequired": "Vui lòng điền đầy đủ các trường bắt buộc",
+      "success": "Lưu nội dung thành công!",
+      "error": "Lỗi khi lưu nội dung",
+      "timeout": "Quá thời gian xử lý"
+    },
+    "uploadSection": {
+      "uploading": "Tải lên tài liệu lớn, vui lòng đợi...",
+      "title": "Nhập tệp hoặc URL",
+      "description": "Thêm tài liệu mới để AI có thể học và trả lời câu hỏi",
+      "uploadFile": "Tải lên tệp",
+      "importUrl": "Nhập từ URL",
+      "import": "Nhập",
+      "dropzone": "Kéo thả file vào đây hoặc nhấn để chọn",
+      "supportedFormats": "Hỗ trợ: PDF, DOC, DOCX, PPT, PPTX, TXT, JPG, JPEG, PNG, GIF, WEBP, MP4, AVI, MOV, WMV, MP3, WAV, OGG (tối đa 256MB)",
+      "urlLabel": "URL trang web",
+      "urlPlaceholder": "https://example.com/page",
+      "urlHint": "Hệ thống sẽ tự động crawl nội dung từ trang web và embedding để AI có thể tìm kiếm",
+      "urlDescription": "Diễn giải các trang cần lấy dữ liệu",
+      "urlDescriptionPlaceholder": "Mô tả chi tiết về các trang web cần lấy dữ liệu, mục đích sử dụng...",
+      "urlDescriptionHint": "Thông tin này giúp hệ thống hiểu rõ hơn về nội dung cần crawl",
+      "webUrl": "URL trang web",
+      "urlInfo": {
+        "title": "Lưu ý khi nhập URL",
+        "point1": "Hệ thống sẽ tự động crawl toàn bộ nội dung từ trang web",
+        "point2": "Quá trình xử lý có thể mất vài phút tùy thuộc vào kích thước trang",
+        "point3": "Đảm bảo URL có thể truy cập công khai"
+      },
+      "fillRequired": "Vui lòng điền đầy đủ các trường bắt buộc",
+      "selectFile": "Vui lòng chọn tệp để tải lên",
+      "enterUrl": "Vui lòng nhập URL hợp lệ",
+      "uploadSuccess": "Tải lên tài liệu thành công!",
+      "urlImportSuccess": "Nhập URL thành công!",
+      "fileInfo": {
+        "title": "Tiêu đề",
+        "titlePlaceholder": "Nhập tiêu đề tài liệu",
+        "folder": "Thư mục",
+        "selectFolder": "Chọn thư mục",
+        "category": "Danh mục",
+        "selectCategory": "Chọn danh mục",
+        "description": "Mô tả",
+        "descriptionPlaceholder": "Mô tả ngắn gọn về nội dung tài liệu",
+        "tags": "Từ khóa",
+        "tagsPlaceholder": "Nhập từ khóa, cách nhau bằng dấu phẩy",
+        "tagsHint": "Ví dụ: server, troubleshooting, network, security"
+      }
+    },
+    "contentList": {
+      "title": "Danh sách Nội dung",
+      "total": "Tổng cộng: {count} mục"
+    },
+    "documentList": {
+      "title": "Danh sách Tài liệu",
+      "total": "Tổng cộng: {count} tài liệu",
+      "columns": {
+        "name": "Tài liệu",
+        "category": "Danh mục",
+        "status": "Trạng thái",
+        "size": "Kích thước",
+        "uploadedBy": "Người upload",
+        "uploadDate": "Ngày tạo",
+        "actions": "Thao tác"
+      },
+      "status": {
+        "Processed": "Đã hoàn thành",
+        "Processing": "Đang xử lý",
+        "Failed": "Lỗi",
+        "Error": "Lỗi",
+        "processed": "Public",
+        "processing": "Processing",
+        "error": "Error"
+      },
+      "actions": {
+        "view": "Xem",
+        "download": "Tải xuống",
+        "delete": "Xóa",
+        "edit": "Sửa"
+      },
+      "categories": {
+        "all": "Tất cả",
+        "faq": "FAQ",
+        "guide": "Hướng dẫn",
+        "policy": "Chính sách",
+        "technical": "Kỹ thuật",
+        "software": "Phần mềm",
+        "hardware": "Phần cứng",
+        "other": "Khác",
+        "Policy": "Chính sách",
+        "Guide": "Hướng dẫn",
+        "Technical": "Kỹ thuật",
+        "Software": "Phần mềm",
+        "Hardware": "Phần cứng",
+        "FAQ": "FAQ",
+        "Other": "Khác"
+      }
+    },
+    "folderInfo": {
+      "name": "Tên thư mục",
+      "namePlaceholder": "Nhập tên thư mục",
+      "description": "Mô tả",
+      "descriptionPlaceholder": "Mô tả ngắn gọn về thư mục"
+    },
+    "moveDocument": "Di chuyển tài liệu",
+    "moveDocumentInfo": {
+      "document": "Tài liệu cần di chuyển",
+      "targetFolder": "Thư mục đích",
+      "selectFolder": "Chọn thư mục",
+      "rootFolder": "Thư mục gốc"
+    },
+    "gdrive": {
+      "title": "Google Drive",
+      "connectTitle": "Kết nối Google Drive",
+      "connectDesc": "Đồng bộ tài liệu từ Google Drive của bạn để AI có thể học và trả lời câu hỏi",
+      "connectButton": "Kết nối với Google Drive",
+      "howItWorks": "Cách hoạt động",
+      "step1": "Kết nối tài khoản Google Drive của bạn một cách an toàn",
+      "step2": "Chọn các folder hoặc file bạn muốn đồng bộ",
+      "step3": "Hệ thống tự động embedding và cập nhật khi có thay đổi",
+      "connectSuccess": "Kết nối Google Drive thành công!",
+      "connectError": "Lỗi khi kết nối Google Drive",
+      "configError": "Vui lòng cấu hình Google Client ID trong Settings"
+    },
+    "onedrive": {
+      "title": "OneDrive",
+      "connectTitle": "Kết nối OneDrive",
+      "connectDesc": "Đồng bộ tài liệu từ OneDrive của bạn để AI có thể học và trả lời câu hỏi",
+      "connectButton": "Kết nối với OneDrive",
+      "howItWorks": "Cách hoạt động",
+      "step1": "Kết nối tài khoản Microsoft OneDrive của bạn một cách an toàn",
+      "step2": "Chọn các folder hoặc file bạn muốn đồng bộ",
+      "step3": "Hệ thống tự động embedding và cập nhật khi có thay đổi",
+      "connectSuccess": "Kết nối OneDrive thành công!",
+      "connectError": "Lỗi khi kết nối OneDrive",
+      "configError": "Vui lòng cấu hình Microsoft Client ID trong Settings"
+    },
+    "uploading": "Uploading large file, please wait..."
+  },
+  "errors": {
+    "general": "Đã xảy ra lỗi",
+    "network": "Lỗi kết nối mạng",
+    "unauthorized": "Không có quyền truy cập",
+    "notFound": "Không tìm thấy",
+    "validation": "Dữ liệu không hợp lệ",
+    "fileSize": "File quá lớn",
+    "fileType": "Loại file không được hỗ trợ"
+  },
+  "success": {
+    "saved": "Đã lưu thành công",
+    "deleted": "Đã xóa thành công",
+    "uploaded": "Đã tải lên thành công",
+    "updated": "Đã cập nhật thành công"
+  },
+  "chatbotPermissions": {
+    "title": "Chatbot Permissions",
+    "subtitle": "Quản lý phân quyền dữ liệu và bảo mật chatbot",
+    "tabs": {
+      "roles": "Vai trò & Quyền",
+      "documents": "Phân quyền tài liệu",
+      "database": "Phân quyền cơ sở dữ liệu",
+      "users": "Quản lý người dùng",
+      "audit": "Nhật ký hoạt động"
+    },
+    "stats": {
+      "users": "Người dùng",
+      "totalUsers": "Tổng số người dùng đã đăng ký",
+      "roles": "Vai trò",
+      "activeRoles": "Vai trò đang hoạt động",
+      "documents": "Tài liệu",
+      "protectedDocs": "Tài liệu đã áp dụng phân quyền truy cập",
+      "database": "Cơ sở dữ liệu",
+      "databaseTables": "Bảng cơ sở dữ liệu đang được theo dõi phân quyền",
+      "totalRules": "Tổng quy tắc",
+      "activeRules": "Quy tắc hoạt động",
+      "securityAlerts": "Cảnh báo bảo mật",
+      "accessLogs": "Logs hôm nay"
+    },
+    "documents": {
+      "header": {
+        "title": "Phân quyền tài liệu",
+        "cardClass": "bg-gradient-to-r from-indigo-50 to-purple-50 border border-indigo-100",
+        "iconWrapperClass": "bg-gradient-to-br from-indigo-500 to-purple-600",
+        "color": "indigo",
+        "range": "{start} - {end} / {total}",
+        "roles": "{count} vai trò"
+      },
+      "buttons": {
+        "refresh": "Làm mới",
+        "bulkAssign": "Phân quyền hàng loạt ({count})"
+      },
+      "filters": {
+        "searchPlaceholder": "Tìm kiếm tài liệu...",
+        "fileTypeAll": "Tất cả loại",
+        "accessLevelAll": "Tất cả cấp độ",
+        "roleAll": "Tất cả vai trò"
+      },
+      "table": {
+        "columns": {
+          "document": "Tài liệu",
+          "type": "Loại",
+          "accessLevel": "Cấp độ",
+          "roles": "Vai trò",
+          "actions": "Hành động"
+        },
+        "unknownType": "Không xác định",
+        "defaultAccessLevel": "Công khai",
+        "actions": {
+          "preview": "Xem trước tài liệu",
+          "download": "Tải xuống tài liệu",
+          "permissions": "Chỉnh sửa phân quyền",
+          "edit": "Chỉnh sửa tài liệu"
+        }
+      },
+      "pagination": {
+        "prev": "Trước",
+        "next": "Sau",
+        "perPageOption": "{count} / trang"
+      },
+      "messages": {
+        "loadFailed": "Không thể tải danh sách tài liệu",
+        "genericError": "Có lỗi xảy ra khi tải tài liệu",
+        "previewMissing": "Không tìm thấy file để xem trước",
+        "downloadMissing": "Không tìm thấy file để tải xuống",
+        "downloadFilename": "tai-lieu"
+      },
+      "accessLevels": {
+        "Public": "Công khai",
+        "Internal": "Nội bộ"
+      },
+      "accessLevelClasses": {
+        "default": "bg-gray-100 text-gray-700 border border-gray-200",
+        "Public": "bg-emerald-100 text-emerald-700 border border-emerald-200",
+        "Internal": "bg-blue-100 text-blue-700 border border-blue-200"
+      },
+      "preview": {
+        "label": "Chi tiết tài liệu",
+        "titleFallback": "Xem trước",
+        "imageAlt": "Ảnh xem trước tài liệu",
+        "buttons": {
+          "openNewTab": "Mở tab mới",
+          "download": "Tải xuống",
+          "close": "Đóng"
+        },
+        "docx": {
+          "notConvertible": "Không thể chuyển đổi DOCX để xem trước tại client.",
+          "openOrDownload": "Bạn có thể mở trong tab mới hoặc tải xuống."
+        },
+        "unsupported": {
+          "title": "Không thể xem trước loại file này trong trình duyệt.",
+          "hint": "Bạn có thể mở trong tab mới hoặc tải xuống."
+        },
+        "errors": {
+          "noUrl": "Không có đường dẫn file để hiển thị.",
+          "abort": "Yêu cầu xem trước đã hết thời gian hoặc bị hủy",
+          "loadFailed": "Không thể tải file để xem trước: {error}. Có thể do quyền truy cập, CORS hoặc hết thời gian. Hãy thử mở tab mới hoặc tải xuống."
+        },
+        "documentFallbackName": "Tài liệu"
+      },
+      "permissionModal": {
+        "title": "Phân quyền tài liệu",
+        "actions": {
+          "selectAll": "Chọn tất cả",
+          "deselectAll": "Bỏ chọn tất cả",
+          "rolesSelected": "vai trò được chọn"
+        },
+        "loading": "Đang tải phân quyền...",
+        "role": {
+          "active": "Hoạt động",
+          "inactive": "Không hoạt động",
+          "accessLabel": "Có quyền truy cập",
+          "selectedSuffix": "vai trò được chọn"
+        },
+        "buttons": {
+          "save": "Lưu thay đổi",
+          "saving": "Đang lưu..."
+        },
+        "errors": {
+          "loadFailed": "Không thể tải phân quyền",
+          "updateFailed": "Không thể cập nhật phân quyền",
+          "saveFailed": "Có lỗi xảy ra khi cập nhật phân quyền"
+        }
+      },
+      "editModal": {
+        "label": "Chỉnh sửa",
+        "title": "Chỉnh sửa tài liệu",
+        "loading": "Đang tải thông tin tài liệu...",
+        "fields": {
+          "title": "Tiêu đề *",
+          "category": "Danh mục",
+          "accessLevel": "Cấp truy cập *",
+          "accessLevelPlaceholder": "Chọn cấp truy cập",
+          "tags": "Thẻ",
+          "departments": "Phòng ban được phép",
+          "description": "Mô tả",
+          "content": "Nội dung"
+        },
+        "buttons": {
+          "cancel": "Hủy",
+          "save": "Lưu thay đổi",
+          "saving": "Đang lưu..."
+        },
+        "errors": {
+          "loadFailed": "Không thể tải thông tin tài liệu",
+          "noChanges": "Không có thay đổi nào để lưu.",
+          "saveFailed": "Không thể cập nhật tài liệu"
+        }
+      },
+      "bulkModal": {
+        "label": "Phân quyền",
+        "title": "Phân quyền hàng loạt",
+        "selectedDocs": "{count} tài liệu được chọn",
+        "fields": {
+          "role": "Chọn vai trò",
+          "rolePlaceholder": "-- Chọn vai trò --",
+          "action": "Hành động",
+          "actionGrant": "Cấp quyền truy cập",
+          "actionRevoke": "Thu hồi quyền truy cập",
+          "documents": "Tài liệu đã chọn",
+          "noDocuments": "Không có tài liệu nào được chọn.",
+          "unknownCategory": "Không rõ"
+        },
+        "buttons": {
+          "cancel": "Hủy",
+          "apply": "Áp dụng"
+        },
+        "errors": {
+          "rolesLoadFailed": "Không thể tải danh sách vai trò",
+          "applyFailed": "Có lỗi xảy ra khi áp dụng phân quyền"
+        }
+      },
+      "roles": {
+        "header": {
+          "title": "Vai trò & Quyền",
+          "total": "{count} vai trò",
+          "active": "{count} đang hoạt động"
+        },
+        "actions": {
+          "refresh": "Làm mới",
+          "add": "Thêm vai trò mới",
+          "addButtonClass": "bg-gradient-to-r from-blue-500 to-indigo-500 hover:from-blue-600 hover:to-indigo-600 shadow-lg",
+          "edit": "Chỉnh sửa",
+          "viewUsers": "Xem người dùng",
+          "delete": "Xóa",
+          "deleteTooltip": "Cannot delete role that has users",
+          "deleteRole": "Delete role"
+        },
+        "filters": {
+          "searchPlaceholder": "Tìm kiếm vai trò...",
+          "allStatus": "Tất cả trạng thái",
+          "active": "Đang hoạt động",
+          "inactive": "Ngưng hoạt động"
+        },
+        "empty": "Không có vai trò nào phù hợp bộ lọc.",
+        "pagination": {
+          "range": "Hiển thị {start} - {end} trên {total} vai trò",
+          "prev": "Trước",
+          "next": "Sau"
+        },
+        "status": {
+          "active": "Hoạt động",
+          "inactive": "Ngưng"
+        },
+        "tags": {
+          "users": "{count} người dùng",
+          "priority": "Ưu tiên: {value}"
+        },
+        "loading": "Đang tải danh sách vai trò...",
+        "errors": {
+          "unknownRole": "Không xác định được vai trò cần cập nhật.",
+          "saveFailed": "Không thể lưu vai trò",
+          "usersLoadFailed": "Không thể tải danh sách người dùng"
+        }
+      }
+    },
+    "quickActions": {
+      "createRule": "Tạo quy tắc mới",
+      "createRuleDesc": "Thiết lập phân quyền cho role/user",
+      "securityDashboard": "Cảnh báo bảo mật",
+      "securityDashboardDesc": "Xem logs và alerts",
+      "documentManager": "Quản lý tài liệu",
+      "documentManagerDesc": "Upload và phân loại documents"
+    },
+    "table": {
+      "title": "Danh sách quy tắc phân quyền",
+      "searchPlaceholder": "Tìm kiếm quy tắc...",
+      "allStatus": "Tất cả trạng thái",
+      "active": "Hoạt động",
+      "suspended": "Tạm dừng",
+      "columns": {
+        "ruleName": "Tên quy tắc",
+        "roleUser": "Role/User",
+        "accessLevel": "Access Level",
+        "priority": "Priority",
+        "status": "Trạng thái",
+        "actions": "Thao tác"
+      },
+      "status": {
+        "active": "Hoạt động",
+        "suspended": "Tạm dừng"
+      },
+      "noRules": "Không tìm thấy quy tắc phân quyền nào"
+    },
+    "modal": {
+      "createRule": "Tạo quy tắc mới",
+      "editRule": "Chỉnh sửa quy tắc",
+      "ruleName": "Tên quy tắc *",
+      "priority": "Priority (1-10)",
+      "description": "Mô tả",
+      "applyTo": "Áp dụng cho",
+      "role": "Role",
+      "selectRole": "Chọn role...",
+      "department": "Department",
+      "selectDepartment": "Chọn department...",
+      "specificUser": "Specific User",
+      "selectUser": "Chọn user...",
+      "accessControl": "Kiểm soát truy cập",
+      "accessLevel": "Access Level",
+      "documentTags": "Document Tags",
+      "rateLimit": "Rate Limit (queries/hour)",
+      "maxResults": "Max Results Per Query",
+      "sensitiveDataMasking": "Enable Sensitive Data Masking",
+      "auditAccess": "Audit Access Logs",
+      "activateRule": "Kích hoạt quy tắc",
+      "update": "Cập nhật",
+      "create": "Tạo quy tắc",
+      "cancel": "Hủy"
+    },
+    "confirmDelete": "Bạn có chắc chắn muốn xóa quy tắc này?",
+    "usersManagement": {
+      "title": "User Management",
+      "description": "Manage user accounts and permissions",
+      "editUser": "Edit User",
+      "addNewUser": "Add New User",
+      "userDetails": "User Details",
+      "systemInfo": "System Information",
+      "activityStats": "Activity Statistics",
+      "documentsCreated": "Documents Created",
+      "cannotLoadUser": "Cannot load user information",
+      "cannotUpdateUser": "Cannot update user",
+      "userUpdatedSuccess": "User updated successfully",
+      "disableUserConfirm": "Are you sure you want to disable user \"{name}\"?",
+      "userDisabledSuccess": "User \"{name}\" has been disabled",
+      "cannotDisableUser": "Cannot disable user",
+      "cannotLoadRoles": "Cannot load role data",
+      "cannotLoadRoleUsers": "Cannot load user list"
+    }
+  },
+  "settings": {
+    "title": "Cài đặt hệ thống",
+    "subtitle": "Cấu hình hệ thống AI Agent",
+    "testConnection": "Test kết nối",
+    "testing": "Đang kiểm tra...",
+    "resetDefaults": "Khôi phục mặc định",
+    "tabs": {
+      "general": "Tổng quan",
+      "ai": "Cấu hình AI",
+      "rag": "Cấu hình RAG",
+      "permissions": "Phân quyền"
+    },
+    "general": {
+      "title": "Cài đặt chung",
+      "subtitle": "Cấu hình chung",
+      "systemName": "Tên hệ thống",
+      "systemNameDesc": "Tên hiển thị của hệ thống AI",
+      "defaultLanguage": "Ngôn ngữ mặc định",
+      "vietnamese": "Tiếng Việt",
+      "interface": "Giao diện",
+      "themeLight": "Sáng",
+      "themeDark": "Tối",
+      "themeAuto": "Tự động",
+      "timezone": "Múi giờ",
+      "dateFormat": "Định dạng ngày",
+      "systemInfo": "Thông tin hệ thống",
+      "site": "Site",
+      "frappe": "Frappe",
+      "database": "Database"
+    },
+    "ai": {
+      "title": "Cấu hình AI",
+      "subtitle": "Thiết lập mô hình AI và các tham số",
+      "openaiApiKey": "OpenAI API Key",
+      "apiKeyDesc": "API key được mã hóa và lưu trữ an toàn. Lấy key tại OpenAI Platform",
+      "model": "AI Model",
+      "modelDesc": "Chọn mô hình phù hợp với nhu cầu và ngân sách",
+      "embeddingModel": "Embedding Model",
+      "embeddingModelDesc": "Dùng để tạo vector từ văn bản",
+      "temperature": "Temperature",
+      "temperatureDesc": "Điều chỉnh độ sáng tạo của AI (0 = chính xác, 1 = sáng tạo)",
+      "maxTokens": "Max Tokens",
+      "maxTokensDesc": "Số lượng token tối đa cho mỗi phản hồi",
+      "contextWindow": "Context Window",
+      "contextWindowDesc": "Số lượng tin nhắn lịch sử để gửi cùng với câu hỏi"
+    },
+    "rag": {
+      "title": "Cấu hình RAG",
+      "subtitle": "Thiết lập Retrieval-Augmented Generation",
+      "chunkSize": "Chunk Size",
+      "chunkSizeDesc": "Kích thước mỗi đoạn văn bản (ký tự)",
+      "chunkOverlap": "Chunk Overlap",
+      "chunkOverlapDesc": "Số ký tự chồng lấp giữa các chunk",
+      "retrievalDocs": "Retrieval Documents",
+      "retrievalDocsDesc": "Số tài liệu tìm kiếm để trả lời câu hỏi",
+      "explanation": "Giải thích về RAG",
+      "explanationDesc": "Chunk Size: Kích thước mỗi đoạn văn bản khi chia nhỏ tài liệu. Lớn hơn = nhiều ngữ cảnh, nhỏ hơn = chính xác hơn. Chunk Overlap: Số ký tự chồng lấp giữa các chunk để đảm bảo không mất thông tin quan trọng. Retrieval Documents: Số lượng tài liệu liên quan nhất được tìm kiếm để trả lời câu hỏi."
+    },
+    "permissions": {
+      "title": "Phân quyền",
+      "subtitle": "Quản lý quyền truy cập của các vai trò",
+      "notice": "Thông báo",
+      "noticeDesc": "Phân quyền được quản lý thông qua hệ thống Role của Frappe. Vui lòng truy cập Frappe Desk > Role Permission Manager để cấu hình chi tiết.",
+      "yourPermissions": "Quyền của bạn",
+      "viewDashboard": "Xem Dashboard",
+      "useChat": "Sử dụng Chat",
+      "uploadDocuments": "Upload tài liệu",
+      "manageSettings": "Quản lý cài đặt"
+    },
+    "save": {
+      "lastUpdate": "Lần cập nhật cuối:",
+      "reload": "Tải lại",
+      "save": "Lưu cài đặt",
+      "saving": "Đang lưu...",
+      "saveSuccess": "Cài đặt đã được lưu thành công!",
+      "saveError": "Lỗi khi lưu cài đặt",
+      "loadError": "Không thể tải cài đặt",
+      "testSuccess": "Kết nối OpenAI thành công!",
+      "testError": "Kết nối thất bại",
+      "testErrorDesc": "Lỗi khi kiểm tra kết nối",
+      "resetConfirm": "Bạn có chắc muốn khôi phục cài đặt mặc định? (API Key sẽ được giữ nguyên)",
+      "resetSuccess": "Đã khôi phục cài đặt mặc định",
+      "resetError": "Lỗi khi khôi phục cài đặt",
+      "apiKeyRequired": "Vui lòng nhập OpenAI API Key"
+    }
+  },
+  "users": {
+    "title": "Quản lý người dùng",
+    "subtitle": "Quản lý tài khoản và phân quyền",
+    "addUser": "Thêm người dùng",
+    "stats": {
+      "total": "Tổng số",
+      "active": "Hoạt động",
+      "inactive": "Không hoạt động",
+      "newToday": "Mới hôm nay"
+    },
+    "searchPlaceholder": "Tìm kiếm theo tên, email...",
+    "allStatus": "Tất cả trạng thái",
+    "allRoles": "Tất cả vai trò",
+    "perPage": "/ trang",
+    "columns": {
+      "user": "Người dùng",
+      "email": "Email",
+      "role": "Vai trò",
+      "status": "Trạng thái",
+      "lastLogin": "Lần cuối đăng nhập",
+      "actions": "Hành động"
+    },
+    "status": {
+      "active": "Hoạt động",
+      "inactive": "Không hoạt động"
+    },
+    "pagination": {
+      "showing": "Hiển thị",
+      "of": "trong tổng số",
+      "users": "người dùng"
+    },
+    "modal": {
+      "addUser": "Thêm người dùng mới",
+      "editUser": "Chỉnh sửa người dùng",
+      "userInfo": "Thông tin người dùng",
+      "email": "Email *",
+      "fullName": "Họ và tên *",
+      "firstName": "Họ",
+      "lastName": "Tên",
+      "password": "Mật khẩu *",
+      "passwordPlaceholder": "Tối thiểu 8 ký tự",
+      "phone": "Số điện thoại",
+      "gender": "Giới tính",
+      "selectGender": "Chọn giới tính",
+      "male": "Nam",
+      "female": "Nữ",
+      "other": "Khác",
+      "role": "Vai trò *",
+      "status": "Trạng thái",
+      "cancel": "Hủy",
+      "save": "Lưu",
+      "saving": "Đang lưu...",
+      "requiredFields": "Vui lòng điền đầy đủ thông tin bắt buộc",
+      "passwordRequired": "Vui lòng nhập mật khẩu cho người dùng mới",
+      "saveSuccess": "Lưu thành công!",
+      "saveError": "Lỗi khi lưu người dùng"
+    },
+    "detail": {
+      "title": "Chi tiết người dùng",
+      "personalInfo": "Thông tin cá nhân",
+      "firstName": "Họ:",
+      "lastName": "Tên:",
+      "phone": "Số điện thoại:",
+      "gender": "Giới tính:",
+      "birthDate": "Ngày sinh:",
+      "address": "Địa chỉ:",
+      "systemInfo": "Thông tin hệ thống",
+      "creationDate": "Ngày tạo:",
+      "lastUpdate": "Cập nhật cuối:",
+      "lastLogin": "Lần cuối đăng nhập:",
+      "lastActive": "Hoạt động cuối:",
+      "language": "Ngôn ngữ:",
+      "timezone": "Múi giờ:",
+      "roles": "Vai trò",
+      "activityStats": "Thống kê hoạt động",
+      "loginCount": "Lần đăng nhập",
+      "documentsCreated": "Tài liệu tạo",
+      "totalSessions": "Phiên làm việc",
+      "bio": "Giới thiệu"
+    },
+    "actions": {
+      "disableConfirm": "Bạn có chắc muốn vô hiệu hóa người dùng",
+      "disableSuccess": "Người dùng đã được vô hiệu hóa",
+      "disableError": "Lỗi khi vô hiệu hóa người dùng",
+      "resetPasswordPrompt": "Nhập mật khẩu mới cho",
+      "passwordMinLength": "Mật khẩu phải có ít nhất 8 ký tự",
+      "resetSuccess": "Mật khẩu đã được reset thành công",
+      "resetError": "Lỗi khi reset mật khẩu",
+      "viewDetail": "View details",
+      "edit": "Edit",
+      "resetPassword": "Reset password",
+      "disable": "Disable"
+    },
+    "loading": "Đang tải...",
+    "noData": "Không có dữ liệu",
+    "loadError": "Lỗi khi tải danh sách người dùng"
+  },
+  "welcome": {
+    "title": "Dashboard",
+    "subtitle": "Nền tảng AI tự động hóa thông minh",
+    "today": "Hôm nay",
+    "stats": {
+      "documents": "Tài liệu",
+      "conversations": "Cuộc hội thoại",
+      "users": "Người dùng",
+      "accuracy": "Độ chính xác"
+    },
+    "quickActions": {
+      "chatbot": "Chatbot AI",
+      "chatbotDesc": "Trò chuyện thông minh",
+      "startChat": "Bắt đầu chat",
+      "ocr": "OCR - Nhập liệu",
+      "ocrDesc": "Tự động hóa nhập liệu",
+      "processDocument": "Xử lý tài liệu",
+      "knowledge": "Kiến thức nền tảng",
+      "knowledgeDesc": "Quản lý tài liệu",
+      "uploadDocument": "Upload tài liệu",
+      "integrations": "Tích hợp hệ thống",
+      "integrationsDesc": "ERP, CRM, SAP",
+      "connectSystem": "Kết nối hệ thống",
+      "analytics": "Phân tích & Thống kê",
+      "analyticsDesc": "Usage & Chi phí",
+      "viewReport": "Xem báo cáo",
+      "settings": "Cài đặt hệ thống",
+      "settingsDesc": "Cấu hình AI & API",
+      "setup": "Thiết lập",
+      "profile": "Thông tin cá nhân",
+      "profileDesc": "Quản lý profile & bảo mật",
+      "updateProfile": "Cập nhật profile"
+    },
+    "analytics": {
+      "todayUsage": "Thống kê sử dụng hôm nay",
+      "chatQuestions": "Câu hỏi Chat",
+      "totalQuestions": "Tổng số câu hỏi",
+      "vsYesterday": "so với hôm qua",
+      "ocrProcessed": "OCR Processed",
+      "processedDocs": "Tài liệu đã xử lý",
+      "activeUsers": "Người dùng hoạt động",
+      "activeUsersDesc": "Người dùng hoạt động",
+      "costToken": "Chi phí & Token Usage",
+      "tokenUsageToday": "Token Usage hôm nay",
+      "quota": "quota",
+      "tokensUsed": "tokens",
+      "limit": "limit",
+      "todayCost": "Chi phí hôm nay",
+      "monthCost": "Chi phí tháng này",
+      "topUsers": "Top Users (theo số câu hỏi)"
+    },
+    "gettingStarted": {
+      "title": "🚀 Bắt đầu sử dụng",
+      "step1": "Cấu hình OpenAI API Key trong",
+      "step2": "Upload tài liệu IT trong",
+      "step3": "Bắt đầu Chat với AI để nhận hỗ trợ"
+    }
+  },
+  "profile": {
+    "title": "Thông tin cá nhân",
+    "subtitle": "Quản lý profile và bảo mật",
+    "active": "Hoạt động",
+    "joinedFrom": "Tham gia từ",
+    "personalInfo": "Thông tin cá nhân",
+    "edit": "Chỉnh sửa",
+    "firstName": "Họ",
+    "lastName": "Tên",
+    "phone": "Số điện thoại",
+    "fixedPhone": "Điện thoại cố định",
+    "gender": "Giới tính",
+    "selectGender": "Chọn giới tính",
+    "male": "Nam",
+    "female": "Nữ",
+    "other": "Khác",
+    "birthDate": "Ngày sinh",
+    "address": "Địa chỉ",
+    "bio": "Giới thiệu bản thân",
+    "bioPlaceholder": "Viết vài dòng giới thiệu về bản thân...",
+    "preferences": "Preferences",
+    "language": "Ngôn ngữ",
+    "timezone": "Múi giờ",
+    "vietnam": "Việt Nam (GMT+7)",
+    "bangkok": "Bangkok (GMT+7)",
+    "singapore": "Singapore (GMT+8)",
+    "cancel": "Hủy",
+    "saveChanges": "Lưu thay đổi",
+    "saving": "Đang lưu...",
+    "accountStats": "Thống kê tài khoản",
+    "loginCount": "Lần đăng nhập",
+    "totalCount": "Tổng số lần",
+    "lastActive": "Lần cuối hoạt động",
+    "documentsCreated": "Tài liệu tạo",
+    "security": "Bảo mật",
+    "changePassword": "Đổi mật khẩu",
+    "updatePassword": "Cập nhật mật khẩu bảo mật",
+    "rolesPermissions": "Vai trò & Quyền hạn",
+    "imageUpload": {
+      "title": "Cập nhật ảnh đại diện",
+      "selectImage": "Chọn ảnh từ máy tính",
+      "supportedFormats": "JPG, PNG, GIF (tối đa 5MB)",
+      "cancel": "Hủy"
+    },
+    "passwordChange": {
+      "title": "Đổi mật khẩu",
+      "currentPassword": "Mật khẩu hiện tại",
+      "currentPasswordPlaceholder": "Nhập mật khẩu hiện tại",
+      "newPassword": "Mật khẩu mới",
+      "newPasswordPlaceholder": "Nhập mật khẩu mới (tối thiểu 8 ký tự)",
+      "confirmPassword": "Xác nhận mật khẩu mới",
+      "confirmPasswordPlaceholder": "Nhập lại mật khẩu mới",
+      "cancel": "Hủy",
+      "changePassword": "Đổi mật khẩu",
+      "updating": "Đang cập nhật...",
+      "passwordMismatch": "Mật khẩu xác nhận không khớp"
+    },
+    "messages": {
+      "loadError": "Không thể tải thông tin profile",
+      "updateSuccess": "Cập nhật thành công!",
+      "updateError": "Không thể cập nhật profile",
+      "changePasswordSuccess": "Đổi mật khẩu thành công!",
+      "changePasswordError": "Không thể đổi mật khẩu",
+      "imageTooLarge": "File quá lớn. Vui lòng chọn file nhỏ hơn 5MB",
+      "imageUploadSuccess": "Cập nhật ảnh đại diện thành công!",
+      "imageUploadError": "Không thể upload ảnh"
+    }
+  },
+  "integrations": {
+    "title": "Tích hợp hệ thống",
+    "subtitle": "Kết nối với ERP, CRM, SAP và các hệ thống doanh nghiệp",
+    "pageTitle": "Tích hợp Hệ thống",
+    "pageSubtitle": "Quản lý webhooks, API endpoints và bảo mật",
+    "webhooksActive": "Webhooks đang hoạt động",
+    "createWebhook": "Tạo Webhook",
+    "webhookManagement": "Quản lý Webhook",
+    "securitySettings": "Cài đặt Bảo mật",
+    "advancedSettings": "Cài đặt Nâng cao",
+    "connected": "Đã kết nối",
+    "stats": {
+      "activeConnections": "Kết nối hoạt động",
+      "dataSync": "Đồng bộ/ngày",
+      "uptime": "Uptime",
+      "apiCalls": "API calls/h"
+    },
+    "categories": {
+      "erp": "Hệ thống hoạch định tài nguyên",
+      "erpDesc": "Hệ thống hoạch định tài nguyên doanh nghiệp",
+      "crm": "Quản lý quan hệ khách hàng",
+      "crmDesc": "Quản lý quan hệ khách hàng",
+      "other": "Hệ thống khác",
+      "otherDesc": "Hệ thống khác"
+    },
+    "actions": {
+      "disconnect": "Ngắt kết nối",
+      "connect": "Kết nối"
+    },
+    "status": {
+      "title": "Trạng thái kết nối",
+      "healthy": "Healthy",
+      "slowResponse": "Slow Response",
+      "error": "Error"
+    },
+    "activityLogs": {
+      "title": "Nhật ký hoạt động",
+      "dataSyncCompleted": "Đồng bộ dữ liệu hoàn tất thành công",
+      "newLeadData": "Nhận dữ liệu lead mới",
+      "connectionTimeout": "Kết nối timeout, đang thử lại...",
+      "contactUpdated": "Thông tin liên hệ đã cập nhật",
+      "authFailed": "Xác thực thất bại",
+      "messageSent": "Đã gửi tin nhắn tới #general channel"
+    },
+    "apiConfig": {
+      "title": "Cấu hình API",
+      "webhookEndpoints": "Webhook Endpoints",
+      "dataSync": "Data Sync",
+      "errorNotifications": "Error Notifications",
+      "active": "Active",
+      "rateLimits": "Rate Limits",
+      "apiCallsPerHour": "API Calls per hour",
+      "concurrentConnections": "Concurrent connections",
+      "dataTransferPerDay": "Data transfer/day"
+    },
+    "connectionModal": {
+      "title": "Kết nối",
+      "serverUrl": "Server URL",
+      "serverUrlPlaceholder": "https://your-server.com/api",
+      "apiKey": "API Key",
+      "apiKeyPlaceholder": "Nhập API key",
+      "username": "Username",
+      "usernamePlaceholder": "Username",
+      "password": "Password",
+      "passwordPlaceholder": "Password",
+      "testConnection": "Test Connection",
+      "saveConnect": "Lưu & Kết nối"
+    },
+    "timeAgo": {
+      "minutesAgo": "phút trước",
+      "justNow": "Vừa xong"
+    }
+  },
+  "ocr": {
+    "title": "OCR - Nhập liệu tự động",
+    "subtitle": "Nhận dạng và trích xuất văn bản từ hình ảnh, PDF",
+    "today": "Hôm nay",
+    "stats": {
+      "totalProcessed": "Tổng xử lý",
+      "accuracy": "Độ chính xác",
+      "avgTime": "Thời gian TB",
+      "supportedFormats": "Định dạng"
+    },
+    "upload": {
+      "title": "Upload tài liệu để xử lý OCR",
+      "dragDrop": "Kéo thả tài liệu vào đây",
+      "clickToSelect": "hoặc nhấn để chọn file",
+      "selectDocuments": "Chọn tài liệu",
+      "supportedFormats": "Định dạng hỗ trợ:",
+      "processing": "Đang xử lý",
+      "completed": "Hoàn thành",
+      "error": "Lỗi"
+    },
+    "settings": {
+      "title": "Cài đặt OCR",
+      "language": "Ngôn ngữ",
+      "vietnamese": "Tiếng Việt",
+      "english": "Tiếng Anh",
+      "autoDetect": "Tự động phát hiện",
+      "quality": "Chất lượng",
+      "fast": "Nhanh",
+      "balanced": "Cân bằng",
+      "accurate": "Chính xác cao",
+      "autoCorrect": "Tự động sửa lỗi chính tả",
+      "preserveLayout": "Giữ nguyên layout"
+    },
+    "quickStats": {
+      "title": "Thống kê nhanh",
+      "today": "Hôm nay",
+      "thisWeek": "Tuần này",
+      "thisMonth": "Tháng này",
+      "avgAccuracy": "Độ chính xác TB"
+    },
+    "recentResults": {
+      "title": "Kết quả gần đây"
+    },
+    "resultModal": {
+      "title": "Kết quả OCR",
+      "file": "File:",
+      "accuracy": "Độ chính xác:",
+      "processingTime": "Thời gian xử lý:",
+      "language": "Ngôn ngữ:",
+      "extractedText": "Văn bản trích xuất:",
+      "downloadTxt": "Tải xuống TXT",
+      "copyText": "Copy văn bản",
+      "exportWord": "Xuất Word"
+    },
+    "timeAgo": {
+      "minutesAgo": "phút trước",
+      "justNow": "Vừa xong"
+    },
+    "documentType": "Document Type",
+    "batchMode": "Batch Processing",
+    "batchModeDesc": "Allow upload & process multiple files",
+    "selectedDocuments": "Selected documents ({count})",
+    "sendDocumentsToOCR": "Send documents to OCR",
+    "processDocuments": "Process {count} documents",
+    "captureDocument": "Capture Document",
+    "step1Label": "Upload & Select Type",
+    "step1Desc": "Prepare input documents",
+    "documentCode": "Document Code",
+    "ocrSuccessMessage": "Document has been OCR processed and saved to the system. You can go back to process other documents.",
+    "invoices": "Invoices",
+    "receipts": "Receipts",
+    "others": "Others",
+    "averageAccuracy": "Average Accuracy"
+  },
+  "contactAdmin": {
+    "title": "Liên hệ quản trị viên",
+    "subtitle": "Chúng tôi sẵn sàng hỗ trợ bạn",
+    "description": "Để lại thông tin, chúng tôi sẽ liên hệ sớm nhất",
+    "form": {
+      "fullName": "Họ và tên *",
+      "fullNamePlaceholder": "Nguyễn Văn A",
+      "email": "Email *",
+      "emailPlaceholder": "example@company.com",
+      "phone": "Số điện thoại *",
+      "phonePlaceholder": "0123 456 789",
+      "company": "Công ty/Tổ chức",
+      "companyPlaceholder": "Tên công ty",
+      "subject": "Chủ đề *",
+      "selectSubject": "Chọn chủ đề",
+      "accountAccess": "Truy cập tài khoản",
+      "passwordReset": "Đặt lại mật khẩu",
+      "technicalSupport": "Hỗ trợ kỹ thuật",
+      "productDemo": "Demo sản phẩm",
+      "businessInquiry": "Tư vấn kinh doanh",
+      "other": "Khác",
+      "message": "Nội dung *",
+      "messagePlaceholder": "Mô tả chi tiết vấn đề hoặc yêu cầu hỗ trợ của bạn...",
+      "sendRequest": "Gửi yêu cầu",
+      "sending": "Đang gửi...",
+      "backToLogin": "Quay lại đăng nhập"
+    },
+    "contactInfo": {
+      "title": "Hỗ trợ khách hàng",
+      "subtitle": "Đội ngũ chuyên gia của DBIZ Autonomous luôn sẵn sàng hỗ trợ bạn 24/7.",
+      "hotline": "Hotline 24/7",
+      "hotlineNumber": "1900 1234",
+      "hotlineDesc": "Gọi ngay để được hỗ trợ trực tiếp từ chuyên gia",
+      "emailSupport": "Email hỗ trợ",
+      "emailAddress": "support@dbiz.vn",
+      "emailDesc": "Phản hồi trong vòng 2 giờ làm việc",
+      "office": "Văn phòng",
+      "officeAddress": "Tầng 10, Tòa nhà ABC<br>123 Đường XYZ, Quận 1<br>TP. Hồ Chí Minh, Việt Nam",
+      "businessHours": "Giờ làm việc",
+      "hours": "Thứ 2 - Thứ 6: 8:00 - 18:00<br>Thứ 7: 8:00 - 12:00<br>Chủ nhật: Nghỉ"
+    },
+    "validation": {
+      "requiredFields": "Vui lòng nhập đầy đủ thông tin bắt buộc (*)",
+      "invalidEmail": "Email không hợp lệ",
+      "invalidPhone": "Số điện thoại không hợp lệ"
+    },
+    "messages": {
+      "success": "Yêu cầu của bạn đã được gửi thành công! Chúng tôi sẽ liên hệ trong vòng 24h.",
+      "error": "Gửi yêu cầu thất bại",
+      "networkError": "Không thể kết nối đến server. Vui lòng kiểm tra kết nối mạng.",
+      "generalError": "Có lỗi xảy ra, vui lòng thử lại hoặc liên hệ hotline"
+    }
+  },
+  "forgotPassword": {
+    "title": "Quên mật khẩu",
+    "subtitle": "Đặt lại mật khẩu của bạn",
+    "description": "Nhập thông tin để tạo mật khẩu mới",
+    "form": {
+      "username": "Tên đăng nhập",
+      "usernamePlaceholder": "Administrator hoặc admin@system.com",
+      "newPassword": "Mật khẩu mới",
+      "confirmPassword": "Xác nhận mật khẩu",
+      "resetPassword": "Đặt lại mật khẩu",
+      "processing": "Đang xử lý...",
+      "backToLogin": "Quay lại đăng nhập",
+      "needSupport": "Cần hỗ trợ?",
+      "contactAdmin": "Liên hệ quản trị viên"
+    },
+    "security": {
+      "title": "Bảo mật tài khoản",
+      "subtitle": "Đảm bảo tài khoản của bạn luôn được bảo vệ với mật khẩu mạnh và an toàn.",
+      "strongPassword": "Mật khẩu mạnh",
+      "strongPasswordDesc": "Sử dụng ít nhất 8 ký tự, bao gồm chữ hoa, chữ thường, số và ký tự đặc biệt",
+      "accountProtection": "Bảo vệ tài khoản",
+      "accountProtectionDesc": "Không chia sẻ mật khẩu và thay đổi định kỳ để đảm bảo an toàn",
+      "support247": "Hỗ trợ 24/7",
+      "support247Desc": "Đội ngũ kỹ thuật sẵn sàng hỗ trợ bạn mọi lúc, mọi nơi"
+    },
+    "validation": {
+      "requiredInfo": "Vui lòng nhập đầy đủ thông tin",
+      "passwordMismatch": "Mật khẩu xác nhận không khớp",
+      "passwordMinLength": "Mật khẩu phải có ít nhất 8 ký tự"
+    },
+    "messages": {
+      "success": "Mật khẩu đã được đặt lại thành công! Đang chuyển hướng...",
+      "userNotFound": "Không tìm thấy người dùng này",
+      "invalidInfo": "Thông tin không hợp lệ",
+      "resetFailed": "Đặt lại mật khẩu thất bại",
+      "generalError": "Có lỗi xảy ra, vui lòng thử lại",
+      "networkError": "Không thể kết nối đến server. Vui lòng kiểm tra kết nối mạng."
+    }
+  },
+  "login": {
+    "title": "DBIZ Autonomous",
+    "subtitle": "Nền tảng AI tự động hóa thông minh",
+    "description": "Đăng nhập để truy cập hệ thống quản trị",
+    "form": {
+      "username": "Tên đăng nhập",
+      "usernamePlaceholder": "{'Administrator hoặc admin@system.com'}",
+      "password": "Mật khẩu",
+      "rememberLogin": "Ghi nhớ đăng nhập",
+      "forgotPassword": "Quên mật khẩu?",
+      "login": "Đăng nhập",
+      "loggingIn": "Đang đăng nhập...",
+      "noAccount": "Chưa có tài khoản?",
+      "contactAdmin": "Liên hệ quản trị viên"
+    },
+    "features": {
+      "title": "DBIZ Autonomous",
+      "subtitle": "Nền tảng AI tự động hóa toàn diện với khả năng xử lý ngôn ngữ tự nhiên, nhận dạng văn bản và tự động hóa quy trình kinh doanh.",
+      "chatbot": "Chatbot AI Thông minh",
+      "chatbotDesc": "AI Assistant với khả năng hiểu ngữ cảnh, trả lời tự nhiên và học hỏi từ dữ liệu doanh nghiệp",
+      "ocr": "OCR - Nhập liệu tự động",
+      "ocrDesc": "Nhận dạng và trích xuất văn bản từ hình ảnh, PDF với độ chính xác cao, tự động hóa quy trình nhập liệu",
+      "knowledge": "Quản lý Tri thức",
+      "knowledgeDesc": "Tích hợp, phân loại và tìm kiếm thông minh trong kho tài liệu doanh nghiệp",
+      "security": "Bảo mật Enterprise",
+      "securityDesc": "Hệ thống bảo mật đa lớp, tuân thủ tiêu chuẩn quốc tế, đảm bảo an toàn dữ liệu"
+    },
+    "validation": {
+      "requiredInfo": "Vui lòng nhập đầy đủ thông tin",
+      "loginFailed": "Đăng nhập thất bại"
+    },
+    "messages": {
+      "generalError": "Có lỗi xảy ra, vui lòng thử lại"
+    }
+  },
+  "dashboard": {
+    "welcome": "Chào mừng trở lại, {name}!",
+    "subtitle": "Đây là những gì đang diễn ra với AI assistant của bạn hôm nay",
+    "supportInfo": "AI assistant của bạn sẵn sàng hỗ trợ mọi câu hỏi",
+    "totalDocumentsProcessed": "Tổng tài liệu đã xử lý",
+    "thisWeek": "Tuần này",
+    "averageAccuracy": "Độ chính xác trung bình",
+    "smartAI": "Trợ lý AI thông minh",
+    "totalConversations": "Tổng số cuộc hội thoại",
+    "messages": "Tin nhắn",
+    "time": "Thời gian",
+    "satisfaction": "Tỷ lệ hài lòng",
+    "successResolutionRate": "Tỷ lệ giải quyết thành công",
+    "userActivity": "Hoạt động người dùng",
+    "userActivityDesc": "Thống kê sử dụng theo người dùng",
+    "totalUsers": "Tổng số người dùng",
+    "topActiveUsers": "Người dùng hoạt động hàng đầu",
+    "stats": {
+      "totalFiles": "Tổng số tệp",
+      "totalChats": "Tổng số chat",
+      "pendingQuestions": "Câu hỏi chờ xử lý",
+      "satisfaction": "Tỷ lệ hài lòng"
+    },
+    "uploadedToday": "tải lên hôm nay",
+    "chatsWithAI": "cuộc chat với AI hôm nay",
+    "pendingQuestions": "câu hỏi chờ xử lý",
+    "recentActivity": {
+      "title": "Hoạt động gần đây",
+      "noActivity": "Không có hoạt động gần đây"
+    },
+    "activityChart": {
+      "title": "Hoạt động trong tuần",
+      "questions": "Câu hỏi",
+      "documents": "Tài liệu"
+    },
+    "categoryChart": {
+      "title": "Phân bố tài liệu"
+    },
+    "categories": {
+      "faq": "FAQ",
+      "guide": "Hướng dẫn",
+      "technical": "Kỹ thuật",
+      "software": "Phần mềm",
+      "hardware": "Phần cứng"
+    }
+  }
+}

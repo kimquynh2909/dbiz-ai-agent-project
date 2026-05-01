@@ -1,0 +1,1200 @@
+{
+  "common": {
+    "dashboard": "Dashboard",
+    "aiAgents": "AI Agents",
+    "chatbot": "AI Chatbot",
+    "ocr": "OCR - Automated Data Entry",
+    "knowledge": "Knowledge Base",
+    "integrations": "System Integration",
+    "analytics": "Analytics & Statistics",
+    "permissions": "Chatbot Permissions",
+    "settings": "Settings",
+    "users": "Users",
+    "logout": "Logout",
+    "profile": "Profile",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "add": "Add New",
+    "search": "Search",
+    "filter": "Filter",
+    "export": "Export",
+    "import": "Import",
+    "upload": "Upload",
+    "download": "Download",
+    "actions": "Actions",
+    "status": "Status",
+    "date": "Date",
+    "time": "Time",
+    "confirm": "Confirm",
+    "loading": "Loading...",
+    "noData": "No data available",
+    "create": "Create New",
+    "move": "Move"
+  },
+  "chat": {
+    "title": "AI IT Assistant",
+    "subtitle": "IT Support with GPT OpenAI",
+    "user": "You",
+    "responding": "responding...",
+    "generatingResponse": "Generating response...",
+    "referenceSources": "Reference sources",
+    "welcomeTitle": "Hello! I'm Ms.Sunny 👋",
+    "welcomeDescription": "I'm your AI IT Assistant. Ask me about technology, IT support!",
+    "supportInfo": "I can help you with technology and IT issues",
+    "welcomeMessage": "Welcome to AI IT Assistant!",
+    "welcomeDesc": "I can help you solve IT issues, provide technical guidance, and answer questions based on uploaded documents.",
+    "placeholder": "Type your question...",
+    "send": "Send",
+    "thinking": "Thinking...",
+    "error": "An error occurred, please try again",
+    "history": "Chat History",
+    "conversationListTitle": "Conversations",
+    "newChat": "New Conversation",
+    "clearAll": "Clear all",
+    "clearHistory": "Clear History",
+    "deleteConversation": "Delete conversation",
+    "confirmDeleteConversation": "Delete conversation \"{title}\"?",
+    "feedback": {
+      "helpful": "Was this answer helpful?",
+      "yes": "Yes",
+      "no": "No",
+      "thanks": "Thanks for your feedback!"
+    },
+    "suggestions": {
+      "resetPassword": "How to reset password?",
+      "installSoftware": "Software installation guide",
+      "serverIssue": "Server troubleshooting",
+      "emailSetup": "Email client configuration"
+    },
+    "timeAgo": {
+      "today": "Today",
+      "yesterday": "Yesterday",
+      "daysAgo": "days ago"
+    },
+    "confirmClearHistory": "Are you sure you want to delete all chat history?"
+  },
+  "knowledge": {
+    "uploading": "Uploading large file, please wait...",
+    "title": "Knowledge Base",
+    "subtitle": "Manage and access IT documents",
+    "pageTitle": "Knowledge Management",
+    "pageSubtitle": "Store and manage your enterprise documents",
+    "folders": "Folders",
+    "allDocuments": "All Documents",
+    "searchPlaceholder": "Search documents...",
+    "noDocuments": "No documents yet",
+    "uploadFirstDocument": "Upload your first document to get started",
+    "uploadDocument": "Upload Document",
+    "upload": "Upload",
+    "createFolder": "Create Folder",
+    "breadcrumb": {
+      "root": "Root Folder"
+    },
+    "addDocument": "Add Document",
+    "sourceSelection": {
+      "title": "Choose document source",
+      "subtitle": "Select the source you want to add documents from",
+      "comingSoon": "Coming Soon",
+      "comingSoonMessage": "This feature will be available soon!",
+      "sources": {
+        "paste": {
+          "title": "Paste Text",
+          "description": "Create from notes, outlines, or existing content"
+        },
+        "file": {
+          "title": "Import File or URL",
+          "description": "Enhance existing documents, presentations, or web pages"
+        },
+        "gdrive": {
+          "title": "Google Drive",
+          "description": "Sync documents from Google Drive"
+        },
+        "onedrive": {
+          "title": "OneDrive",
+          "description": "Sync documents from OneDrive"
+        }
+      }
+    },
+    "pasteModal": {
+      "title": "Paste Text",
+      "titleLabel": "Title",
+      "titlePlaceholder": "Enter title for content",
+      "contentLabel": "Content",
+      "contentPlaceholder": "Paste or type your content here...",
+      "contentHint": "Content will be saved as a file and automatically embedded for AI search",
+      "fillRequired": "Please fill in all required fields",
+      "success": "Content saved successfully!",
+      "error": "Error saving content",
+      "timeout": "Processing timeout"
+    },
+    "uploadSection": {
+      "uploading": "Uploading large file, please wait...",
+      "title": "Import File or URL",
+      "description": "Add new documents for AI to learn and answer questions",
+      "uploadFile": "Upload File",
+      "importUrl": "Import from URL",
+      "import": "Import",
+      "dropzone": "Drag and drop files here or click to select",
+      "supportedFormats": "Supported: PDF, DOC, DOCX, PPT, PPTX, TXT, JPG, JPEG, PNG, GIF, WEBP, MP4, AVI, MOV, WMV, MP3, WAV, OGG (max 256MB)",
+      "urlLabel": "Website URL",
+      "urlPlaceholder": "https://example.com/page",
+      "urlHint": "System will automatically crawl content from the webpage and embed for AI search",
+      "urlDescription": "Description of pages to crawl",
+      "urlDescriptionPlaceholder": "Detailed description of the web pages to crawl, purpose of use...",
+      "urlDescriptionHint": "This information helps the system better understand the content to crawl",
+      "webUrl": "Web URL",
+      "urlInfo": {
+        "title": "Note when importing URL",
+        "point1": "System will automatically crawl all content from the webpage",
+        "point2": "Processing may take a few minutes depending on page size",
+        "point3": "Ensure the URL is publicly accessible"
+      },
+      "fillRequired": "Please fill in all required fields",
+      "selectFile": "Please select a file to upload",
+      "enterUrl": "Please enter a valid URL",
+      "uploadSuccess": "Document uploaded successfully!",
+      "urlImportSuccess": "URL imported successfully!",
+      "fileInfo": {
+        "title": "Title",
+        "titlePlaceholder": "Enter document title",
+        "folder": "Folder",
+        "selectFolder": "Select folder",
+        "category": "Category",
+        "selectCategory": "Select category",
+        "description": "Description",
+        "descriptionPlaceholder": "Brief description of document content",
+        "tags": "Keywords",
+        "tagsPlaceholder": "Enter keywords, separated by commas",
+        "tagsHint": "Example: server, troubleshooting, network, security"
+      }
+    },
+    "documentList": {
+      "title": "Document List",
+      "total": "Total: {count} documents",
+      "columns": {
+        "name": "Document",
+        "category": "Category",
+        "status": "Security",
+        "size": "Size",
+        "uploadedBy": "Uploaded By",
+        "uploadDate": "Created Date",
+        "actions": "Actions"
+      },
+      "status": {
+        "processed": "Public",
+        "processing": "Processing",
+        "error": "Error",
+        "Processed": "Completed",
+        "Processing": "Processing",
+        "Failed": "Failed",
+        "Error": "Error"
+      },
+      "actions": {
+        "view": "View",
+        "download": "Download",
+        "delete": "Delete",
+        "edit": "Edit"
+      },
+      "categories": {
+        "all": "All",
+        "faq": "FAQ",
+        "guide": "Guide",
+        "policy": "Policy",
+        "technical": "Technical",
+        "software": "Software",
+        "hardware": "Hardware",
+        "other": "Other",
+        "Policy": "Policy",
+        "Guide": "Guide",
+        "Technical": "Technical",
+        "Software": "Software",
+        "Hardware": "Hardware",
+        "FAQ": "FAQ",
+        "Other": "Other"
+      }
+    },
+    "gdrive": {
+      "title": "Google Drive",
+      "connectTitle": "Connect Google Drive",
+      "connectDesc": "Sync documents from your Google Drive for AI learning and question answering",
+      "connectButton": "Connect to Google Drive",
+      "howItWorks": "How it works",
+      "step1": "Securely connect your Google Drive account",
+      "step2": "Select folders or files you want to sync",
+      "step3": "System automatically embeds and updates when changes occur",
+      "connectSuccess": "Google Drive connected successfully!",
+      "connectError": "Error connecting to Google Drive",
+      "configError": "Please configure Google Client ID in Settings"
+    },
+    "onedrive": {
+      "title": "OneDrive",
+      "connectTitle": "Connect OneDrive",
+      "connectDesc": "Sync documents from your OneDrive for AI learning and question answering",
+      "connectButton": "Connect to OneDrive",
+      "howItWorks": "How it works",
+      "step1": "Securely connect your Microsoft OneDrive account",
+      "step2": "Select folders or files you want to sync",
+      "step3": "System automatically embeds and updates when changes occur",
+      "connectSuccess": "OneDrive connected successfully!",
+      "connectError": "Error connecting to OneDrive",
+      "configError": "Please configure Microsoft Client ID in Settings"
+    },
+    "contentList": {
+      "title": "Content List",
+      "total": "Total: {count} items"
+    },
+    "folderInfo": {
+      "name": "Folder Name",
+      "namePlaceholder": "Enter folder name",
+      "description": "Description",
+      "descriptionPlaceholder": "Brief description of the folder"
+    },
+    "moveDocument": "Move Document",
+    "moveDocumentInfo": {
+      "document": "Document to move",
+      "targetFolder": "Target Folder",
+      "selectFolder": "Select folder",
+      "rootFolder": "Root Folder"
+    }
+  },
+  "errors": {
+    "general": "An error occurred",
+    "network": "Network connection error",
+    "unauthorized": "Unauthorized access",
+    "notFound": "Not found",
+    "validation": "Invalid data",
+    "fileSize": "File too large",
+    "fileType": "File type not supported"
+  },
+  "chatbotPermissions": {
+    "title": "Chatbot Permissions",
+    "subtitle": "Manage data permissions and chatbot security",
+    "tabs": {
+      "roles": "Roles & Permissions",
+      "documents": "Document Permissions",
+      "database": "Database Permissions",
+      "users": "User Management",
+      "audit": "Audit Logs"
+    },
+    "stats": {
+      "users": "Users",
+      "totalUsers": "Total registered users",
+      "roles": "Roles",
+      "activeRoles": "Active roles in use",
+      "documents": "Documents",
+      "database": "Database",
+      "databaseTables": "Database tables being tracked for permissions",
+      "totalRules": "Total rules",
+      "activeRules": "Active rules",
+      "protectedDocs": "Protected documents",
+      "securityAlerts": "Security alerts",
+      "accessLogs": "Today's logs"
+    },
+    "documents": {
+      "header": {
+        "title": "Document Permissions",
+        "cardClass": "bg-gradient-to-r from-indigo-50 to-purple-50 border border-indigo-100",
+        "iconWrapperClass": "bg-gradient-to-br from-indigo-500 to-purple-600",
+        "color": "indigo",
+        "range": "{start} - {end} / {total}",
+        "roles": "{count} roles"
+      },
+      "buttons": {
+        "refresh": "Refresh",
+        "bulkAssign": "Bulk assign ({count})"
+      },
+      "filters": {
+        "searchPlaceholder": "Search documents...",
+        "fileTypeAll": "All types",
+        "accessLevelAll": "All access levels",
+        "roleAll": "All roles"
+      },
+      "table": {
+        "columns": {
+          "document": "Document",
+          "type": "Type",
+          "accessLevel": "Access Level",
+          "roles": "Roles",
+          "actions": "Actions"
+        },
+        "unknownType": "Unknown",
+        "defaultAccessLevel": "Public",
+        "actions": {
+          "preview": "Preview document",
+          "download": "Download document",
+          "permissions": "Edit permissions",
+          "edit": "Edit document"
+        }
+      },
+      "pagination": {
+        "prev": "Previous",
+        "next": "Next",
+        "perPageOption": "{count} / page"
+      },
+      "messages": {
+        "loadFailed": "Unable to load document list",
+        "genericError": "An error occurred while loading documents",
+        "previewMissing": "No file found for preview",
+        "downloadMissing": "No file found for download",
+        "downloadFilename": "document"
+      },
+      "accessLevels": {
+        "Public": "Public",
+        "Internal": "Internal"
+      },
+      "accessLevelClasses": {
+        "default": "bg-gray-100 text-gray-700 border border-gray-200",
+        "Public": "bg-emerald-100 text-emerald-700 border border-emerald-200",
+        "Internal": "bg-blue-100 text-blue-700 border border-blue-200"
+      },
+      "preview": {
+        "label": "Document Insight",
+        "titleFallback": "Preview",
+        "imageAlt": "Document preview image",
+        "buttons": {
+          "openNewTab": "Open new tab",
+          "download": "Download",
+          "close": "Close"
+        },
+        "docx": {
+          "notConvertible": "Unable to convert DOCX for client-side preview.",
+          "openOrDownload": "You can open it in a new tab or download it."
+        },
+        "unsupported": {
+          "title": "This file type cannot be previewed in the browser.",
+          "hint": "You can open it in a new tab or download it."
+        },
+        "errors": {
+          "noUrl": "No file URL available to display.",
+          "abort": "Preview request timed out or was cancelled.",
+          "loadFailed": "Unable to load file for preview: {error}. This may be due to permissions, CORS, or timeout. Try opening in a new tab or downloading."
+        },
+        "documentFallbackName": "Document"
+      },
+      "permissionModal": {
+        "title": "Document Permissions",
+        "actions": {
+          "selectAll": "Select all",
+          "deselectAll": "Deselect all",
+          "rolesSelected": "roles selected"
+        },
+        "loading": "Loading permissions...",
+        "role": {
+          "active": "Active",
+          "inactive": "Inactive",
+          "accessLabel": "Has access",
+          "selectedSuffix": "roles selected"
+        },
+        "buttons": {
+          "save": "Save changes",
+          "saving": "Saving..."
+        },
+        "errors": {
+          "loadFailed": "Unable to load permissions",
+          "updateFailed": "Failed to update permissions",
+          "saveFailed": "An error occurred while updating permissions"
+        }
+      },
+      "editModal": {
+        "label": "Edit",
+        "title": "Edit Document",
+        "loading": "Loading document details...",
+        "fields": {
+          "title": "Title *",
+          "category": "Category",
+          "accessLevel": "Access level *",
+          "accessLevelPlaceholder": "Select access level",
+          "tags": "Tags",
+          "departments": "Allowed departments",
+          "description": "Description",
+          "content": "Content"
+        },
+        "buttons": {
+          "save": "Save changes",
+          "saving": "Saving...",
+          "cancel": "Cancel"
+        },
+        "errors": {
+          "loadFailed": "Unable to load document details",
+          "noChanges": "No changes to save.",
+          "saveFailed": "Unable to update document"
+        }
+      },
+      "bulkModal": {
+        "label": "Permissions",
+        "title": "Bulk Permission Update",
+        "selectedDocs": "{count} documents selected",
+        "fields": {
+          "role": "Select role",
+          "rolePlaceholder": "-- Select role --",
+          "action": "Action",
+          "actionGrant": "Grant access",
+          "actionRevoke": "Revoke access",
+          "documents": "Selected documents",
+          "noDocuments": "No documents selected.",
+          "unknownCategory": "Unknown"
+        },
+        "buttons": {
+          "cancel": "Cancel",
+          "apply": "Apply"
+        },
+        "errors": {
+          "rolesLoadFailed": "Unable to load roles",
+          "applyFailed": "Failed to apply permissions"
+        }
+      },
+      "roles": {
+        "header": {
+          "title": "Roles & Permissions",
+          "total": "{count} roles",
+          "active": "{count} active"
+        },
+        "actions": {
+          "refresh": "Refresh",
+          "add": "Add new role",
+          "addButtonClass": "bg-gradient-to-r from-blue-500 to-indigo-500 hover:from-blue-600 hover:to-indigo-600 shadow-lg",
+          "edit": "Edit",
+          "viewUsers": "View users",
+          "delete": "Delete",
+          "deleteTooltip": "Cannot delete role that has users",
+          "deleteRole": "Delete role"
+        },
+        "filters": {
+          "searchPlaceholder": "Search roles...",
+          "allStatus": "All status",
+          "active": "Active",
+          "inactive": "Inactive"
+        },
+        "empty": "No roles match the current filters.",
+        "pagination": {
+          "range": "Showing {start} - {end} of {total} roles",
+          "prev": "Previous",
+          "next": "Next"
+        },
+        "status": {
+          "active": "Active",
+          "inactive": "Inactive"
+        },
+        "tags": {
+          "users": "{count} users",
+          "priority": "Priority: {value}"
+        },
+        "loading": "Loading roles...",
+        "errors": {
+          "unknownRole": "Unable to determine which role to update.",
+          "saveFailed": "Unable to save role",
+          "usersLoadFailed": "Unable to load role users"
+        }
+      }
+    },
+    "quickActions": {
+      "createRule": "Create new rule",
+      "createRuleDesc": "Set up permissions for role/user",
+      "securityDashboard": "Security alerts",
+      "securityDashboardDesc": "View logs and alerts",
+      "documentManager": "Document management",
+      "documentManagerDesc": "Upload and categorize documents"
+    },
+    "table": {
+      "title": "Permission rules list",
+      "searchPlaceholder": "Search rules...",
+      "allStatus": "All status",
+      "active": "Active",
+      "suspended": "Suspended",
+      "columns": {
+        "ruleName": "Rule name",
+        "roleUser": "Role/User",
+        "accessLevel": "Access Level",
+        "priority": "Priority",
+        "status": "Status",
+        "actions": "Actions"
+      },
+      "status": {
+        "active": "Active",
+        "suspended": "Suspended"
+      },
+      "noRules": "No permission rules found"
+    },
+    "modal": {
+      "createRule": "Create new rule",
+      "editRule": "Edit rule",
+      "ruleName": "Rule name",
+      "priority": "Priority (1-10)",
+      "description": "Description",
+      "applyTo": "Apply to",
+      "role": "Role",
+      "selectRole": "Select role...",
+      "department": "Department",
+      "selectDepartment": "Select department...",
+      "specificUser": "Specific User",
+      "selectUser": "Select user...",
+      "accessControl": "Access control",
+      "accessLevel": "Access Level",
+      "documentTags": "Document Tags",
+      "rateLimit": "Rate Limit (queries/hour)",
+      "maxResults": "Max Results Per Query",
+      "sensitiveDataMasking": "Enable Sensitive Data Masking",
+      "auditAccess": "Audit Access Logs",
+      "activateRule": "Activate rule",
+      "update": "Update",
+      "create": "Create rule",
+      "cancel": "Cancel"
+    },
+    "confirmDelete": "Are you sure you want to delete this rule?",
+    "usersManagement": {
+      "title": "User Management",
+      "description": "Manage user accounts and permissions",
+      "editUser": "Edit User",
+      "addNewUser": "Add New User",
+      "userDetails": "User Details",
+      "systemInfo": "System Information",
+      "activityStats": "Activity Statistics",
+      "documentsCreated": "Documents Created",
+      "cannotLoadUser": "Cannot load user information",
+      "cannotUpdateUser": "Cannot update user",
+      "userUpdatedSuccess": "User updated successfully",
+      "disableUserConfirm": "Are you sure you want to disable user \"{name}\"?",
+      "userDisabledSuccess": "User \"{name}\" has been disabled",
+      "cannotDisableUser": "Cannot disable user",
+      "cannotLoadRoles": "Cannot load role data",
+      "cannotLoadRoleUsers": "Cannot load user list"
+    }
+  },
+  "settings": {
+    "title": "System settings",
+    "subtitle": "AI Agent system configuration",
+    "testConnection": "Test connection",
+    "testing": "Testing...",
+    "resetDefaults": "Reset to defaults",
+    "tabs": {
+      "general": "General",
+      "ai": "AI Configuration",
+      "rag": "RAG Config",
+      "permissions": "Permissions"
+    },
+    "general": {
+      "title": "General settings",
+      "systemName": "System name",
+      "systemNameDesc": "Display name of the AI system",
+      "defaultLanguage": "Default language",
+      "vietnamese": "Vietnamese",
+      "interface": "Interface",
+      "themeLight": "Light",
+      "themeDark": "Dark",
+      "themeAuto": "Auto",
+      "timezone": "Timezone",
+      "dateFormat": "Date format",
+      "systemInfo": "System information",
+      "site": "Site",
+      "frappe": "Frappe",
+      "database": "Database",
+      "subtitle": "General configuration"
+    },
+    "ai": {
+      "title": "AI Configuration",
+      "subtitle": "Set up AI models and parameters",
+      "openaiApiKey": "OpenAI API Key",
+      "apiKeyDesc": "API key is encrypted and stored securely. Get key at OpenAI Platform",
+      "model": "AI Model",
+      "modelDesc": "Choose model suitable for needs and budget",
+      "embeddingModel": "Embedding Model",
+      "embeddingModelDesc": "Used to create vectors from text",
+      "temperature": "Temperature",
+      "temperatureDesc": "Adjust AI creativity (0 = precise, 1 = creative)",
+      "maxTokens": "Max Tokens",
+      "maxTokensDesc": "Maximum tokens per response",
+      "contextWindow": "Context Window",
+      "contextWindowDesc": "Number of history messages to send with question"
+    },
+    "rag": {
+      "title": "RAG Configuration",
+      "subtitle": "Set up Retrieval-Augmented Generation",
+      "chunkSize": "Chunk Size",
+      "chunkSizeDesc": "Size of each text segment (characters)",
+      "chunkOverlap": "Chunk Overlap",
+      "chunkOverlapDesc": "Number of overlapping characters between chunks",
+      "retrievalDocs": "Retrieval Documents",
+      "retrievalDocsDesc": "Number of relevant documents to search to answer questions",
+      "explanation": "About RAG",
+      "explanationDesc": "Chunk Size: Size of each text segment when splitting documents. Larger = more context, smaller = more accurate. Chunk Overlap: Number of overlapping characters between chunks to ensure no important information is lost. Retrieval Documents: Number of most relevant documents searched to answer questions."
+    },
+    "permissions": {
+      "title": "Permissions",
+      "subtitle": "Manage role access rights",
+      "notice": "Notice",
+      "noticeDesc": "Permissions are managed through Frappe's Role system. Please access Frappe Desk > Role Permission Manager for detailed configuration.",
+      "yourPermissions": "Your permissions",
+      "viewDashboard": "View Dashboard",
+      "useChat": "Use Chat",
+      "uploadDocuments": "Upload documents",
+      "manageSettings": "Manage settings"
+    },
+    "save": {
+      "lastUpdate": "Last update",
+      "reload": "Reload",
+      "save": "Save settings",
+      "saving": "Saving...",
+      "saveSuccess": "Settings saved successfully!",
+      "saveError": "Error saving settings",
+      "loadError": "Cannot load settings",
+      "testSuccess": "OpenAI connection successful!",
+      "testError": "Connection failed",
+      "testErrorDesc": "Error testing connection",
+      "resetConfirm": "Are you sure you want to reset to default settings? (API Key will be kept)",
+      "resetSuccess": "Reset to default settings",
+      "resetError": "Error resetting settings",
+      "apiKeyRequired": "Please enter OpenAI API Key"
+    }
+  },
+  "users": {
+    "title": "User management",
+    "subtitle": "Manage accounts and permissions",
+    "addUser": "Add user",
+    "stats": {
+      "total": "Total",
+      "active": "Active",
+      "inactive": "Inactive",
+      "newToday": "New today"
+    },
+    "searchPlaceholder": "Search by name, email...",
+    "allStatus": "All status",
+    "allRoles": "All roles",
+    "perPage": "/ page",
+    "columns": {
+      "user": "User",
+      "email": "Email",
+      "role": "Role",
+      "status": "Status",
+      "lastLogin": "Last login",
+      "actions": "Actions"
+    },
+    "status": {
+      "active": "Active",
+      "inactive": "Inactive"
+    },
+    "actions": {
+      "viewDetail": "View details",
+      "edit": "Edit",
+      "resetPassword": "Reset password",
+      "disable": "Disable",
+      "disableConfirm": "Are you sure you want to disable user \"{name}\"?",
+      "disableSuccess": "User \"{name}\" has been disabled",
+      "disableError": "Error disabling user",
+      "resetPasswordPrompt": "Enter new password for",
+      "passwordMinLength": "Password must be at least 8 characters",
+      "resetSuccess": "Password reset successfully",
+      "resetError": "Error resetting password"
+    },
+    "pagination": {
+      "showing": "Showing",
+      "of": "of",
+      "users": "users"
+    },
+    "modal": {
+      "addUser": "Add new user",
+      "editUser": "Edit user",
+      "userInfo": "User information",
+      "email": "Email",
+      "fullName": "Full name",
+      "firstName": "First name",
+      "lastName": "Last name",
+      "password": "Password",
+      "passwordPlaceholder": "Minimum 8 characters",
+      "phone": "Phone number",
+      "gender": "Gender",
+      "selectGender": "Select gender",
+      "male": "Male",
+      "female": "Female",
+      "other": "Other",
+      "role": "Role",
+      "status": "Status",
+      "cancel": "Cancel",
+      "save": "Save",
+      "saving": "Saving...",
+      "requiredFields": "Please fill in all required information",
+      "passwordRequired": "Please enter password for new user",
+      "saveSuccess": "Saved successfully!",
+      "saveError": "Error saving user"
+    },
+    "detail": {
+      "title": "User details",
+      "personalInfo": "Personal information",
+      "firstName": "First name",
+      "lastName": "Last name",
+      "phone": "Phone number",
+      "gender": "Gender",
+      "birthDate": "Birth date",
+      "address": "Address",
+      "systemInfo": "System information",
+      "creationDate": "Creation date",
+      "lastUpdate": "Last update",
+      "lastLogin": "Last login",
+      "lastActive": "Last active",
+      "language": "Language",
+      "timezone": "Timezone",
+      "roles": "Roles",
+      "activityStats": "Activity statistics",
+      "loginCount": "Login count",
+      "documentsCreated": "Documents created",
+      "totalSessions": "Total sessions",
+      "bio": "Introduction"
+    },
+    "loading": "Loading...",
+    "noData": "No data",
+    "loadError": "Error loading user list"
+  },
+  "welcome": {
+    "title": "Dashboard",
+    "subtitle": "Smart AI automation platform",
+    "today": "Today",
+    "stats": {
+      "documents": "Documents",
+      "conversations": "Conversations",
+      "users": "Users",
+      "accuracy": "Accuracy"
+    },
+    "quickActions": {
+      "chatbot": "AI Chatbot",
+      "chatbotDesc": "Smart conversation",
+      "startChat": "Start chat",
+      "ocr": "OCR - Data entry",
+      "ocrDesc": "Automated data entry",
+      "processDocument": "Process document",
+      "knowledge": "Knowledge base",
+      "knowledgeDesc": "Document management",
+      "uploadDocument": "Upload document",
+      "integrations": "System integration",
+      "integrationsDesc": "ERP, CRM, SAP",
+      "connectSystem": "Connect system",
+      "analytics": "Analytics & Statistics",
+      "analyticsDesc": "Usage & Costs",
+      "viewReport": "View report",
+      "settings": "System settings",
+      "settingsDesc": "AI & API configuration",
+      "setup": "Setup",
+      "profile": "Personal information",
+      "profileDesc": "Manage profile & security",
+      "updateProfile": "Update profile"
+    },
+    "analytics": {
+      "todayUsage": "Today's usage statistics",
+      "chatQuestions": "Chat questions",
+      "totalQuestions": "Total questions",
+      "vsYesterday": "vs yesterday",
+      "ocrProcessed": "OCR Processed",
+      "processedDocs": "Processed documents",
+      "activeUsers": "Active users",
+      "activeUsersDesc": "Active users",
+      "costToken": "Cost & Token Usage",
+      "tokenUsageToday": "Today's token usage",
+      "quota": "quota",
+      "tokensUsed": "tokens used",
+      "limit": "limit",
+      "todayCost": "Today's cost",
+      "monthCost": "This month's cost",
+      "topUsers": "Top users (by number of questions)"
+    },
+    "gettingStarted": {
+      "title": "🚀 Getting started",
+      "step1": "Configure OpenAI API Key in Settings",
+      "step2": "Upload IT documents in Knowledge Base",
+      "step3": "Start Chat with AI to receive support"
+    }
+  },
+  "profile": {
+    "title": "Personal information",
+    "subtitle": "Manage your profile and security",
+    "active": "Active",
+    "joinedFrom": "Joined from",
+    "personalInfo": "Personal information",
+    "edit": "Edit",
+    "firstName": "First name",
+    "lastName": "Last name",
+    "phone": "Phone number",
+    "fixedPhone": "Fixed phone",
+    "gender": "Gender",
+    "selectGender": "Select gender",
+    "male": "Male",
+    "female": "Female",
+    "other": "Other",
+    "birthDate": "Birth date",
+    "address": "Address",
+    "bio": "Introduce yourself",
+    "bioPlaceholder": "Write a few lines about yourself...",
+    "preferences": "Preferences",
+    "language": "Language",
+    "timezone": "Timezone",
+    "vietnam": "Vietnam (GMT+7)",
+    "bangkok": "Bangkok (GMT+7)",
+    "singapore": "Singapore (GMT+8)",
+    "cancel": "Cancel",
+    "saveChanges": "Save changes",
+    "saving": "Saving...",
+    "accountStats": "Account statistics",
+    "loginCount": "Login count",
+    "totalCount": "Total count",
+    "lastActive": "Last active",
+    "documentsCreated": "Documents created",
+    "security": "Security",
+    "changePassword": "Change password",
+    "updatePassword": "Update password",
+    "rolesPermissions": "Roles & Permissions",
+    "imageUpload": {
+      "title": "Update avatar",
+      "selectImage": "Select image from computer",
+      "supportedFormats": "JPG, PNG, GIF (max 5MB)",
+      "cancel": "Cancel"
+    },
+    "passwordChange": {
+      "title": "Change password",
+      "currentPassword": "Current password",
+      "currentPasswordPlaceholder": "Enter current password",
+      "newPassword": "New password",
+      "newPasswordPlaceholder": "Enter new password (minimum 8 characters)",
+      "confirmPassword": "Confirm new password",
+      "confirmPasswordPlaceholder": "Re-enter new password",
+      "cancel": "Cancel",
+      "changePassword": "Change password",
+      "updating": "Updating...",
+      "passwordMismatch": "Password confirmation does not match"
+    },
+    "messages": {
+      "loadError": "Cannot load profile information",
+      "updateSuccess": "Updated successfully!",
+      "updateError": "Cannot update profile",
+      "changePasswordSuccess": "Password changed successfully!",
+      "changePasswordError": "Cannot change password",
+      "imageTooLarge": "File too large. Please select a file smaller than 5MB",
+      "imageUploadSuccess": "Avatar updated successfully!",
+      "imageUploadError": "Cannot upload image"
+    }
+  },
+  "integrations": {
+    "title": "System integration",
+    "subtitle": "Connect with ERP, CRM, SAP and enterprise systems",
+    "connected": "Connected",
+    "pageTitle": "System Integration",
+    "pageSubtitle": "Manage webhooks, API endpoints and security",
+    "webhooksActive": "Webhooks Active",
+    "createWebhook": "Create Webhook",
+    "webhookManagement": "Webhook Management",
+    "securitySettings": "Security Settings",
+    "advancedSettings": "Advanced Settings",
+    "stats": {
+      "activeConnections": "Active connections",
+      "dataSync": "Sync/day",
+      "uptime": "Uptime",
+      "apiCalls": "API calls/h"
+    },
+    "categories": {
+      "erp": "ERP Systems",
+      "erpDesc": "Enterprise resource planning systems",
+      "crm": "CRM Systems",
+      "crmDesc": "Customer relationship management",
+      "other": "Other Systems",
+      "otherDesc": "Other systems"
+    },
+    "actions": {
+      "disconnect": "Disconnect",
+      "connect": "Connect"
+    },
+    "status": {
+      "title": "Connection status",
+      "healthy": "Healthy",
+      "slowResponse": "Slow Response",
+      "error": "Error"
+    },
+    "activityLogs": {
+      "title": "Activity logs",
+      "dataSyncCompleted": "Data sync completed successfully",
+      "newLeadData": "New lead data received",
+      "connectionTimeout": "Connection timeout, retrying...",
+      "contactUpdated": "Contact information updated",
+      "authFailed": "Authentication failed",
+      "messageSent": "Message sent to #general channel"
+    },
+    "apiConfig": {
+      "title": "API Configuration",
+      "webhookEndpoints": "Webhook Endpoints",
+      "dataSync": "Data Sync",
+      "errorNotifications": "Error Notifications",
+      "active": "Active",
+      "rateLimits": "Rate Limits",
+      "apiCallsPerHour": "API Calls per hour",
+      "concurrentConnections": "Concurrent connections",
+      "dataTransferPerDay": "Data transfer/day"
+    },
+    "connectionModal": {
+      "title": "Connect",
+      "serverUrl": "Server URL",
+      "serverUrlPlaceholder": "https://your-server.com/api",
+      "apiKey": "API Key",
+      "apiKeyPlaceholder": "Enter API key",
+      "username": "Username",
+      "usernamePlaceholder": "Username",
+      "password": "Password",
+      "passwordPlaceholder": "Password",
+      "testConnection": "Test Connection",
+      "saveConnect": "Save & Connect"
+    },
+    "timeAgo": {
+      "minutesAgo": "minutes ago",
+      "justNow": "Just now"
+    }
+  },
+  "ocr": {
+    "title": "OCR - Automated data entry",
+    "subtitle": "Recognize and extract text from images, PDFs",
+    "today": "Today",
+    "documentType": "Document Type",
+    "batchMode": "Batch Processing",
+    "batchModeDesc": "Allow upload & process multiple files",
+    "selectedDocuments": "Selected documents ({count})",
+    "sendDocumentsToOCR": "Send documents to OCR",
+    "processDocuments": "Process {count} documents",
+    "captureDocument": "Capture Document",
+    "step1Label": "Upload & Select Type",
+    "step1Desc": "Prepare input documents",
+    "documentCode": "Document Code",
+    "ocrSuccessMessage": "Document has been OCR processed and saved to the system. You can go back to process other documents.",
+    "invoices": "Invoices",
+    "receipts": "Receipts",
+    "others": "Others",
+    "averageAccuracy": "Average Accuracy",
+    "stats": {
+      "totalProcessed": "Total processed",
+      "accuracy": "Accuracy",
+      "avgTime": "Avg time",
+      "supportedFormats": "Formats"
+    },
+    "upload": {
+      "title": "Upload documents for OCR processing",
+      "dragDrop": "Drag and drop documents here",
+      "clickToSelect": "or click to select file",
+      "selectDocuments": "Select documents",
+      "supportedFormats": "Supported formats:",
+      "processing": "Processing",
+      "completed": "Completed",
+      "error": "Error"
+    },
+    "settings": {
+      "title": "OCR Settings",
+      "language": "Language",
+      "vietnamese": "Vietnamese",
+      "english": "English",
+      "autoDetect": "Auto detect",
+      "quality": "Quality",
+      "fast": "Fast",
+      "balanced": "Balanced",
+      "accurate": "High accuracy",
+      "autoCorrect": "Auto correct spelling",
+      "preserveLayout": "Preserve layout"
+    },
+    "quickStats": {
+      "title": "Quick statistics",
+      "today": "Today",
+      "thisWeek": "This week",
+      "thisMonth": "This month",
+      "avgAccuracy": "Avg accuracy"
+    },
+    "recentResults": {
+      "title": "Recent results"
+    },
+    "resultModal": {
+      "title": "OCR Results",
+      "file": "File",
+      "accuracy": "Accuracy",
+      "processingTime": "Processing time",
+      "language": "Language",
+      "extractedText": "Extracted text",
+      "downloadTxt": "Download TXT",
+      "copyText": "Copy text",
+      "exportWord": "Export Word"
+    },
+    "timeAgo": {
+      "minutesAgo": "minutes ago",
+      "justNow": "Just now"
+    }
+  },
+  "contactAdmin": {
+    "title": "Contact administrator",
+    "subtitle": "We are ready to support you",
+    "description": "Leave your information, we will contact you as soon as possible",
+    "form": {
+      "fullName": "Full name",
+      "fullNamePlaceholder": "Nguyen Van A",
+      "email": "Email",
+      "emailPlaceholder": "example@company.com",
+      "phone": "Phone number",
+      "phonePlaceholder": "0123 456 789",
+      "company": "Company/Organization",
+      "companyPlaceholder": "Company name",
+      "subject": "Subject",
+      "selectSubject": "Select subject",
+      "accountAccess": "Account access",
+      "passwordReset": "Reset password",
+      "technicalSupport": "Technical support",
+      "productDemo": "Product demo",
+      "businessInquiry": "Business inquiry",
+      "other": "Other",
+      "message": "Content",
+      "messagePlaceholder": "Describe your problem or support request in detail...",
+      "sendRequest": "Send request",
+      "sending": "Sending...",
+      "backToLogin": "Back to login"
+    },
+    "contactInfo": {
+      "title": "Customer support",
+      "subtitle": "DBIZ Autonomous expert team is always ready to support you 24/7.",
+      "hotline": "24/7 Hotline",
+      "hotlineNumber": "1900 1234",
+      "hotlineDesc": "Call now for direct support from experts",
+      "emailSupport": "Email support",
+      "emailAddress": "support@dbiz.vn",
+      "emailDesc": "Response within 2 working hours",
+      "office": "Office",
+      "officeAddress": "10th Floor, ABC Building<br>123 XYZ Street, District 1<br>Ho Chi Minh City, Vietnam",
+      "businessHours": "Business hours",
+      "hours": "Mon - Fri: 8:00 - 18:00<br>Sat: 8:00 - 12:00<br>Sun: Closed"
+    },
+    "validation": {
+      "requiredFields": "Please fill in all required information (*)",
+      "invalidEmail": "Invalid email",
+      "invalidPhone": "Invalid phone number"
+    },
+    "messages": {
+      "success": "Your request has been sent successfully! We will contact you within 24h.",
+      "error": "Send request failed",
+      "networkError": "Cannot connect to server. Please check your network connection.",
+      "generalError": "An error occurred, please try again or contact hotline"
+    }
+  },
+  "forgotPassword": {
+    "title": "Forgot password",
+    "subtitle": "Reset your password",
+    "description": "Enter information to create a new password",
+    "form": {
+      "username": "Username",
+      "usernamePlaceholder": "Administrator or admin@system.com",
+      "newPassword": "New password",
+      "confirmPassword": "Confirm password",
+      "resetPassword": "Reset password",
+      "processing": "Processing...",
+      "backToLogin": "Back to login",
+      "needSupport": "Need support?",
+      "contactAdmin": "Contact administrator"
+    },
+    "security": {
+      "title": "Account security",
+      "subtitle": "Ensure your account is always protected with strong and secure passwords.",
+      "strongPassword": "Strong password",
+      "strongPasswordDesc": "Use at least 8 characters, including uppercase, lowercase, numbers and special characters",
+      "accountProtection": "Account protection",
+      "accountProtectionDesc": "Do not share passwords and change them regularly to ensure security",
+      "support247": "24/7 Support",
+      "support247Desc": "Technical team ready to support you anytime, anywhere"
+    },
+    "validation": {
+      "requiredInfo": "Please fill in all information",
+      "passwordMismatch": "Password confirmation does not match",
+      "passwordMinLength": "Password must be at least 8 characters"
+    },
+    "messages": {
+      "success": "Password has been reset successfully! Redirecting...",
+      "userNotFound": "User not found",
+      "invalidInfo": "Invalid information",
+      "resetFailed": "Password reset failed",
+      "generalError": "An error occurred, please try again",
+      "networkError": "Cannot connect to server. Please check your network connection."
+    }
+  },
+  "login": {
+    "title": "DBIZ Autonomous",
+    "subtitle": "Smart AI automation platform",
+    "description": "Login to access the management system",
+    "form": {
+      "username": "Username",
+      "usernamePlaceholder": "{'Administrator or admin@system.com'}",
+      "password": "Password",
+      "rememberLogin": "Remember login",
+      "forgotPassword": "Forgot password?",
+      "login": "Login",
+      "loggingIn": "Logging in...",
+      "noAccount": "Don't have an account?",
+      "contactAdmin": "Contact administrator"
+    },
+    "features": {
+      "title": "DBIZ Autonomous",
+      "subtitle": "Comprehensive AI automation platform with natural language processing, text recognition and business process automation capabilities.",
+      "chatbot": "Smart AI Chatbot",
+      "chatbotDesc": "AI Assistant with contextual understanding, natural responses and learning from enterprise data",
+      "ocr": "OCR - Automated data entry",
+      "ocrDesc": "Recognize and extract text from images, PDFs with high accuracy, automate data entry processes",
+      "knowledge": "Knowledge Management",
+      "knowledgeDesc": "Integrate, categorize and intelligently search enterprise document repositories",
+      "security": "Enterprise Security",
+      "securityDesc": "Multi-layer security system, international standards compliance, data security assurance"
+    },
+    "validation": {
+      "requiredInfo": "Please fill in all information",
+      "loginFailed": "Login failed"
+    },
+    "messages": {
+      "generalError": "An error occurred, please try again"
+    }
+  },
+  "dashboard": {
+    "welcome": "Welcome back, {name}!",
+    "subtitle": "Here's what's happening with your AI assistant today",
+    "supportInfo": "Your AI assistant is ready to help with any questions",
+    "totalDocumentsProcessed": "Total documents processed",
+    "thisWeek": "This week",
+    "averageAccuracy": "Average accuracy",
+    "smartAI": "Smart AI Assistant",
+    "totalConversations": "Total conversations",
+    "messages": "Messages",
+    "time": "Time",
+    "satisfaction": "Satisfaction rate",
+    "successResolutionRate": "Success resolution rate",
+    "userActivity": "User activity",
+    "userActivityDesc": "Usage statistics by user",
+    "totalUsers": "Total users",
+    "topActiveUsers": "Top active users",
+    "stats": {
+      "totalFiles": "Total files",
+      "totalChats": "Total chats",
+      "pendingQuestions": "Pending questions",
+      "satisfaction": "Satisfaction rate"
+    },
+    "uploadedToday": "uploaded today",
+    "chatsWithAI": "chats with AI today",
+    "pendingQuestions": "pending questions",
+    "recentActivity": {
+      "title": "Recent activity",
+      "noActivity": "No recent activity"
+    },
+    "activityChart": {
+      "title": "Activity this week",
+      "questions": "Questions",
+      "documents": "Documents"
+    },
+    "categoryChart": {
+      "title": "Document distribution"
+    },
+    "categories": {
+      "faq": "FAQ",
+      "guide": "Guide",
+      "technical": "Technical",
+      "software": "Software",
+      "hardware": "Hardware"
+    }
+  },
+  "success": {
+    "saved": "Saved successfully",
+    "deleted": "Deleted successfully",
+    "uploaded": "Uploaded successfully",
+    "updated": "Updated successfully"
+  }
+}

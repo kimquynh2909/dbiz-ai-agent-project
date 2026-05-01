@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DBiz AI Chat Widget Demo</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        
+        .demo-container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .demo-header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        
+        .demo-header h1 {
+            color: #1f2937;
+            margin-bottom: 10px;
+        }
+        
+        .demo-header p {
+            color: #6b7280;
+            font-size: 16px;
+        }
+        
+        .demo-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 30px;
+            margin-bottom: 40px;
+        }
+        
+        .demo-card {
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+        
+        .demo-card-header {
+            padding: 20px;
+            background: #f9fafb;
+            border-bottom: 1px solid #e5e7eb;
+        }
+        
+        .demo-card-header h3 {
+            margin: 0 0 8px 0;
+            color: #1f2937;
+            font-size: 18px;
+        }
+        
+        .demo-card-header p {
+            margin: 0;
+            color: #6b7280;
+            font-size: 14px;
+        }
+        
+        .demo-card-body {
+            height: 500px;
+            padding: 0;
+        }
+        
+        .demo-iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+        
+        .demo-code {
+            background: #1f2937;
+            color: #f9fafb;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+            overflow-x: auto;
+        }
+        
+        .demo-code pre {
+            margin: 0;
+            font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+            font-size: 14px;
+            line-height: 1.5;
+        }
+        
+        .demo-code code {
+            color: #f9fafb;
+        }
+        
+        .demo-section {
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+        }
+        
+        .demo-section h2 {
+            color: #1f2937;
+            margin-bottom: 20px;
+            font-size: 24px;
+        }
+        
+        .demo-section h3 {
+            color: #374151;
+            margin-bottom: 15px;
+            font-size: 18px;
+        }
+        
+        .demo-section p {
+            color: #6b7280;
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+        
+        .demo-section ul {
+            color: #6b7280;
+            line-height: 1.6;
+            padding-left: 20px;
+        }
+        
+        .demo-section li {
+            margin-bottom: 8px;
+        }
+        
+        .demo-button {
+            background: #3b82f6;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 8px;
+            font-size: 14px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        
+        .demo-button:hover {
+            background: #2563eb;
+        }
+        
+        .demo-button:active {
+            transform: translateY(1px);
+        }
+        
+        .demo-button-secondary {
+            background: #6b7280;
+        }
+        
+        .demo-button-secondary:hover {
+            background: #4b5563;
+        }
+        
+        .demo-footer {
+            text-align: center;
+            padding: 40px 0;
+            color: #6b7280;
+            border-top: 1px solid #e5e7eb;
+            margin-top: 40px;
+        }
+        
+        .demo-footer a {
+            color: #3b82f6;
+            text-decoration: none;
+        }
+        
+        .demo-footer a:hover {
+            text-decoration: underline;
+        }
+        
+        @media (max-width: 768px) {
+            .demo-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .demo-card-body {
+                height: 400px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="demo-container">
+        <div class="demo-header">
+            <h1>DBiz AI Chat Widget SDK</h1>
+            <p>Embed AI-powered chat functionality into your web applications</p>
+        </div>
+
+        <div class="demo-grid">
+            <div class="demo-card">
+                <div class="demo-card-header">
+                    <h3>Basic Chat Widget</h3>
+                    <p>Simple integration with default styling</p>
+                </div>
+                <div class="demo-card-body">
+                    <div id="basic-chat" data-dbiz-ai-chat></div>
+                </div>
+            </div>
+
+            <div class="demo-card">
+                <div class="demo-card-header">
+                    <h3>Custom Styled Widget</h3>
+                    <p>Customized appearance and behavior</p>
+                </div>
+                <div class="demo-card-body">
+                    <div id="custom-chat" 
+                         data-dbiz-ai-chat
+                         data-theme='{"primaryColor": "#10b981", "backgroundColor": "#f0fdf4"}'
+                         data-features='{"showHeader": true, "showQuickQuestions": true}'>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="demo-section">
+            <h2>Quick Start</h2>
+            
+            <h3>1. Include the SDK</h3>
+            <p>Add the DBiz AI Chat Widget script to your HTML:</p>
+            <div class="demo-code">
+                <pre><code>&lt;script src="https://your-domain.com/sdk/dbiz-ai-chat-widget.js"&gt;&lt;/script&gt;</code></pre>
+            </div>
+
+            <h3>2. Create a Container</h3>
+            <p>Add a container element where you want the chat widget to appear:</p>
+            <div class="demo-code">
+                <pre><code>&lt;div id="my-chat-widget" data-dbiz-ai-chat&gt;&lt;/div&gt;</code></pre>
+            </div>
+
+            <h3>3. Initialize with JavaScript (Optional)</h3>
+            <p>For more control, initialize the widget programmatically:</p>
+            <div class="demo-code">
+                <pre><code>const chatWidget = new DbizAiChatWidget({
+    containerId: 'my-chat-widget',
+    baseUrl: 'https://your-api-domain.com',
+    apiKey: 'your-api-key', // Optional
+    theme: {
+        primaryColor: '#3B82F6',
+        backgroundColor: '#FFFFFF',
+        borderRadius: '12px'
+    },
+    features: {
+        showHeader: true,
+        showQuickQuestions: true,
+        showTypingIndicator: true
+    },
+    callbacks: {
+        onMessageSent: (message) => console.log('Message sent:', message),
+        onMessageReceived: (message) => console.log('Message received:', message),
+        onConversationCreated: (id) => console.log('Conversation created:', id),
+        onError: (error) => console.error('Error:', error)
+    }
+});</code></pre>
+            </div>
+        </div>
+
+        <div class="demo-section">
+            <h2>Configuration Options</h2>
+            
+            <h3>Data Attributes</h3>
+            <p>Configure the widget using HTML data attributes:</p>
+            <div class="demo-code">
+                <pre><code>&lt;div id="my-chat" 
+     data-dbiz-ai-chat
+     data-base-url="https://your-api-domain.com"
+     data-api-key="your-api-key"
+     data-conversation-id="existing-conversation-id"
+     data-theme='{"primaryColor": "#3B82F6"}'
+     data-features='{"showHeader": true}'&gt;
+&lt;/div&gt;</code></pre>
+            </div>
+
+            <h3>Theme Customization</h3>
+            <ul>
+                <li><strong>primaryColor</strong>: Main accent color (default: #3B82F6)</li>
+                <li><strong>backgroundColor</strong>: Widget background color (default: #FFFFFF)</li>
+                <li><strong>textColor</strong>: Main text color (default: #1F2937)</li>
+                <li><strong>borderRadius</strong>: Widget border radius (default: 12px)</li>
+            </ul>
+
+            <h3>Feature Options</h3>
+            <ul>
+                <li><strong>showHeader</strong>: Show/hide chat header (default: true)</li>
+                <li><strong>showQuickQuestions</strong>: Show/hide quick question chips (default: true)</li>
+                <li><strong>showTypingIndicator</strong>: Show typing animation (default: true)</li>
+                <li><strong>showMessageTimestamps</strong>: Show message timestamps (default: true)</li>
+                <li><strong>enableFileUpload</strong>: Enable file upload feature (default: false)</li>
+            </ul>
+        </div>
+
+        <div class="demo-section">
+            <h2>API Methods</h2>
+            
+            <h3>Public Methods</h3>
+            <div class="demo-code">
+                <pre><code>// Send a message programmatically
+chatWidget.sendMessage('Hello, AI!');
+
+// Clear all messages
+chatWidget.clearMessages();
+
+// Update configuration
+chatWidget.updateConfig({
+    assistantName: 'New Assistant Name',
+    greetingMessage: 'New greeting message'
+});
+
+// Get current conversation ID
+const conversationId = chatWidget.getConversationId();
+
+// Get all messages
+const messages = chatWidget.getMessages();
+
+// Check WebSocket connection
+const isConnected = chatWidget.isWebSocketConnected();
+
+// Destroy the widget
+chatWidget.destroy();</code></pre>
+            </div>
+        </div>
+
+        <div class="demo-section">
+            <h2>Event Callbacks</h2>
+            
+            <h3>Available Callbacks</h3>
+            <ul>
+                <li><strong>onReady</strong>: Called when widget is initialized</li>
+                <li><strong>onMessageSent</strong>: Called when user sends a message</li>
+                <li><strong>onMessageReceived</strong>: Called when AI responds</li>
+                <li><strong>onConversationCreated</strong>: Called when new conversation starts</li>
+                <li><strong>onError</strong>: Called when an error occurs</li>
+            </ul>
+
+            <div class="demo-code">
+                <pre><code>const chatWidget = new DbizAiChatWidget({
+    // ... other options
+    callbacks: {
+        onReady: () => {
+            console.log('Chat widget is ready!');
+        },
+        onMessageSent: (message) => {
+            console.log('User sent:', message.content);
+            // Track analytics, etc.
+        },
+        onMessageReceived: (message) => {
+            console.log('AI responded:', message.content);
+            // Update UI, etc.
+        },
+        onConversationCreated: (conversationId) => {
+            console.log('New conversation:', conversationId);
+            // Save conversation ID, etc.
+        },
+        onError: (error) => {
+            console.error('Chat error:', error);
+            // Show error notification, etc.
+        }
+    }
+});</code></pre>
+            </div>
+        </div>
+
+        <div class="demo-section">
+            <h2>Integration Examples</h2>
+            
+            <h3>React Integration</h3>
+            <div class="demo-code">
+                <pre><code>import { useEffect, useRef } from 'react';
+
+function ChatWidget({ baseUrl, apiKey }) {
+    const chatRef = useRef(null);
+    
+    useEffect(() => {
+        if (chatRef.current) {
+            const widget = new window.DbizAiChatWidget({
+                containerId: 'react-chat',
+                baseUrl,
+                apiKey,
+                callbacks: {
+                    onMessageReceived: (message) => {
+                        // Handle AI response in React
+                        console.log('AI response:', message);
+                    }
+                }
+            });
+            
+            return () => widget.destroy();
+        }
+    }, [baseUrl, apiKey]);
+    
+    return &lt;div id="react-chat" ref={chatRef} /&gt;;
+}</code></pre>
+            </div>
+
+            <h3>Vue.js Integration</h3>
+            <div class="demo-code">
+                <pre><code>&lt;template&gt;
+    &lt;div id="vue-chat" ref="chatContainer"&gt;&lt;/div&gt;
+&lt;/template&gt;
+
+&lt;script&gt;
+export default {
+    props: ['baseUrl', 'apiKey'],
+    mounted() {
+        this.chatWidget = new window.DbizAiChatWidget({
+            containerId: 'vue-chat',
+            baseUrl: this.baseUrl,
+            apiKey: this.apiKey,
+            callbacks: {
+                onMessageReceived: (message) => {
+                    this.$emit('message-received', message);
+                }
+            }
+        });
+    },
+    beforeUnmount() {
+        if (this.chatWidget) {
+            this.chatWidget.destroy();
+        }
+    }
+};
+&lt;/script&gt;</code></pre>
+            </div>
+        </div>
+
+        <div class="demo-section">
+            <h2>Mobile Responsiveness</h2>
+            <p>The chat widget is fully responsive and works great on mobile devices. It automatically adjusts its layout for different screen sizes and provides touch-friendly interactions.</p>
+            
+            <div class="demo-code">
+                <pre><code>/* Mobile-specific styling */
+@media (max-width: 768px) {
+    .dbiz-chat-widget {
+        height: 100vh; /* Full screen on mobile */
+        border-radius: 0;
+    }
+    
+    .dbiz-message {
+        max-width: 90%; /* Larger messages on mobile */
+    }
+}</code></pre>
+            </div>
+        </div>
+
+        <div class="demo-footer">
+            <p>
+                <strong>DBiz AI Chat Widget SDK</strong><br>
+                Built with ❤️ for seamless AI integration<br>
+                <a href="https://github.com/dbiz-ai/dbiz-ai-sdk" target="_blank">GitHub</a> | 
+                <a href="https://docs.dbiz.ai" target="_blank">Documentation</a> | 
+                <a href="mailto:support@dbiz.ai">Support</a>
+            </p>
+        </div>
+    </div>
+
+    <!-- Include the DBiz AI Chat Widget SDK -->
+    <script src="dbiz-ai-chat-widget.js"></script>
+    
+    <script>
+        // Demo: Programmatic initialization
+        document.addEventListener('DOMContentLoaded', function() {
+            // Wait a bit for auto-initialization to complete
+            setTimeout(() => {
+                // Demo: Send a welcome message
+                const basicChat = document.getElementById('basic-chat');
+                if (basicChat && window.DbizAiChatWidget) {
+                    // The widget should be auto-initialized by now
+                    console.log('Chat widgets initialized successfully!');
+                }
+            }, 1000);
+        });
+    </script>
+</body>
+</html>
